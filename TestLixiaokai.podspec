@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
        ss.source_files = 'TestLixiaokai/Classes/WKWebView/'
   end
   
-   s.source_files  = "TestLixiaokai", "TestLixiaokai/SensorsAnalyticsSDK.bundle"
+  s.source_files  = "TestLixiaokai", "TestLixiaokai/Classes/SensorsAnalyticsSDK.bundle"
   # s.resource_bundles = {
   #   'TestLixiaokai' => ['TestLixiaokai/Assets/*.png']
   # }
