@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLixiaokai'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of TestLixiaokai.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,85 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'TestLixiaokai/Classes/**/*'
   
+  s.subspec 'AppExtension' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/AppExtension/'
+   end
+  s.subspec 'AppPush' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/AppPush/'
+   end
+  
+  s.subspec 'AutoTrack' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/AutoTrack/'
+   end
+  
+  s.subspec 'ChannelMatch' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/ChannelMatch/'
+   end
+  
+  s.subspec 'Core' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/Core/'
+   end
+  
+  s.subspec 'DebugMode' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/DebugMode/'
+   end
+  
+  s.subspec 'Deeplink' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/Deeplink/'
+   end
+  
+  s.subspec 'DeviceOrientation' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/DeviceOrientation/'
+   end
+  
+  s.subspec 'Encrypt' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/Encrypt/'
+   end
+  
+  s.subspec 'Exception' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/Exception/'
+   end
+  
+  s.subspec 'JSBridge' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/JSBridge/'
+   end
+  
+  s.subspec 'Location' do |ss|
+        ss.source_files = 'TestLixiaokai/Classes/Location/'
+   end
+  s.subspec 'RemoteConfig' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/RemoteConfig/'
+  end
+  
+  s.subspec 'RemoteConfig' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/RemoteConfig/'
+  end
+  
+  s.subspec 'Store' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/Store/'
+  end
+  
+  s.subspec 'RemoteConfig' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/RemoteConfig/'
+  end
+  
   s.subspec 'TestA' do |ss|
        ss.source_files = 'TestLixiaokai/Classes/TestA/'
   end
   
+  s.subspec 'Visualized' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/Visualized/'
+  end
+  
+  s.subspec 'WebView' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/WebView/'
+  end
+  
+  s.subspec 'WKWebView' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/WKWebView/'
+  end
+  
+   s.source_files  = "TestLixiaokai", "TestLixiaokai/SensorsAnalyticsSDK.bundle"
   # s.resource_bundles = {
   #   'TestLixiaokai' => ['TestLixiaokai/Assets/*.png']
   # }
