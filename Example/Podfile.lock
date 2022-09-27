@@ -1,7 +1,41 @@
 PODS:
-  - TestLixiaokai (0.1.0):
-    - TestLixiaokai/TestA (= 0.1.0)
-  - TestLixiaokai/TestA (0.1.0)
+  - TestLixiaokai (1.0.3):
+    - TestLixiaokai/AppExtension (= 1.0.3)
+    - TestLixiaokai/AppPush (= 1.0.3)
+    - TestLixiaokai/AutoTrack (= 1.0.3)
+    - TestLixiaokai/ChannelMatch (= 1.0.3)
+    - TestLixiaokai/Core (= 1.0.3)
+    - TestLixiaokai/DebugMode (= 1.0.3)
+    - TestLixiaokai/Deeplink (= 1.0.3)
+    - TestLixiaokai/DeviceOrientation (= 1.0.3)
+    - TestLixiaokai/Encrypt (= 1.0.3)
+    - TestLixiaokai/Exception (= 1.0.3)
+    - TestLixiaokai/JSBridge (= 1.0.3)
+    - TestLixiaokai/Location (= 1.0.3)
+    - TestLixiaokai/RemoteConfig (= 1.0.3)
+    - TestLixiaokai/Store (= 1.0.3)
+    - TestLixiaokai/TestA (= 1.0.3)
+    - TestLixiaokai/Visualized (= 1.0.3)
+    - TestLixiaokai/WebView (= 1.0.3)
+    - TestLixiaokai/WKWebView (= 1.0.3)
+  - TestLixiaokai/AppExtension (1.0.3)
+  - TestLixiaokai/AppPush (1.0.3)
+  - TestLixiaokai/AutoTrack (1.0.3)
+  - TestLixiaokai/ChannelMatch (1.0.3)
+  - TestLixiaokai/Core (1.0.3)
+  - TestLixiaokai/DebugMode (1.0.3)
+  - TestLixiaokai/Deeplink (1.0.3)
+  - TestLixiaokai/DeviceOrientation (1.0.3)
+  - TestLixiaokai/Encrypt (1.0.3)
+  - TestLixiaokai/Exception (1.0.3)
+  - TestLixiaokai/JSBridge (1.0.3)
+  - TestLixiaokai/Location (1.0.3)
+  - TestLixiaokai/RemoteConfig (1.0.3)
+  - TestLixiaokai/Store (1.0.3)
+  - TestLixiaokai/TestA (1.0.3)
+  - TestLixiaokai/Visualized (1.0.3)
+  - TestLixiaokai/WebView (1.0.3)
+  - TestLixiaokai/WKWebView (1.0.3)
 
 DEPENDENCIES:
   - TestLixiaokai (from `../`)
@@ -11,7 +45,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestLixiaokai: c2e6bda8b904c9ffc5d11af13956283ccdee9bb1
+  TestLixiaokai: 2e2896b61031e6a2a08d5ded213dc0f8c675f6fd
 
 PODFILE CHECKSUM: 231dbf3914d42a069941eae170ff9ba2c5e518ea
 

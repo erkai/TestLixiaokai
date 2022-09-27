@@ -109,9 +109,9 @@ Pod::Spec.new do |s|
   end
   
   s.source_files  = "TestLixiaokai", "TestLixiaokai/Classes/SensorsAnalyticsSDK.bundle"
-  # s.resource_bundles = {
-  #   'TestLixiaokai' => ['TestLixiaokai/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'SensorsAnalyticsSDK' => ['TestLixiaokai/Classes/*.*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

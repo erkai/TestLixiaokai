@@ -1,6 +1,6 @@
 {
   "name": "TestLixiaokai",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "summary": "A short description of TestLixiaokai.",
   "description": "测试的项目",
   "homepage": "https://github.com/erkai/TestLixiaokai",
@@ -13,16 +13,100 @@
   },
   "source": {
     "git": "https://github.com/erkai/TestLixiaokai.git",
-    "tag": "0.1.0"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TestLixiaokai/Classes/**/*",
+  "source_files": [
+    "TestLixiaokai",
+    "TestLixiaokai/Classes/SensorsAnalyticsSDK.bundle"
+  ],
+  "resource_bundles": {
+    "SensorsAnalyticsSDK": [
+      "TestLixiaokai/Classes/*.*"
+    ]
+  },
   "subspecs": [
+    {
+      "name": "AppExtension",
+      "source_files": "TestLixiaokai/Classes/AppExtension/"
+    },
+    {
+      "name": "AppPush",
+      "source_files": "TestLixiaokai/Classes/AppPush/"
+    },
+    {
+      "name": "AutoTrack",
+      "source_files": "TestLixiaokai/Classes/AutoTrack/"
+    },
+    {
+      "name": "ChannelMatch",
+      "source_files": "TestLixiaokai/Classes/ChannelMatch/"
+    },
+    {
+      "name": "Core",
+      "source_files": "TestLixiaokai/Classes/Core/"
+    },
+    {
+      "name": "DebugMode",
+      "source_files": "TestLixiaokai/Classes/DebugMode/"
+    },
+    {
+      "name": "Deeplink",
+      "source_files": "TestLixiaokai/Classes/Deeplink/"
+    },
+    {
+      "name": "DeviceOrientation",
+      "source_files": "TestLixiaokai/Classes/DeviceOrientation/"
+    },
+    {
+      "name": "Encrypt",
+      "source_files": "TestLixiaokai/Classes/Encrypt/"
+    },
+    {
+      "name": "Exception",
+      "source_files": "TestLixiaokai/Classes/Exception/"
+    },
+    {
+      "name": "JSBridge",
+      "source_files": "TestLixiaokai/Classes/JSBridge/"
+    },
+    {
+      "name": "Location",
+      "source_files": "TestLixiaokai/Classes/Location/"
+    },
+    {
+      "name": "RemoteConfig",
+      "source_files": "TestLixiaokai/Classes/RemoteConfig/"
+    },
+    {
+      "name": "RemoteConfig",
+      "source_files": "TestLixiaokai/Classes/RemoteConfig/"
+    },
+    {
+      "name": "Store",
+      "source_files": "TestLixiaokai/Classes/Store/"
+    },
+    {
+      "name": "RemoteConfig",
+      "source_files": "TestLixiaokai/Classes/RemoteConfig/"
+    },
     {
       "name": "TestA",
       "source_files": "TestLixiaokai/Classes/TestA/"
+    },
+    {
+      "name": "Visualized",
+      "source_files": "TestLixiaokai/Classes/Visualized/"
+    },
+    {
+      "name": "WebView",
+      "source_files": "TestLixiaokai/Classes/WebView/"
+    },
+    {
+      "name": "WKWebView",
+      "source_files": "TestLixiaokai/Classes/WKWebView/"
     }
   ]
 }

@@ -7,20 +7,231 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B599DD5168DCE44E37EF886A97E375 /* SAAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = E47CB90FCFA2D9083140946E79BB30C3 /* SAAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0130A301F79A7CE4D36CECC45D5F34A8 /* SAConfigOptions+Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F9F4FE553AE030D790E4839AFB9875 /* SAConfigOptions+Exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016D91F59EBF5E62157646C5D2EBCB76 /* SADeferredDeepLinkProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1658F8C27A126180972FA633FBCD69 /* SADeferredDeepLinkProcessor.m */; };
+		019798C01C6C7EAB885952C6C36CF6BC /* SAAppTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0E78ACF3BE38C98674376ACC455E22 /* SAAppTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040542FC02247E934A8248A716C22CD7 /* SAApplicationDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA47A02F8512DC12F5C74E21B52AE71 /* SAApplicationDelegateProxy.m */; };
+		061A7A7F66669B5AFA3867C1BBA57333 /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 889E2DDC46FB46871BE8D8CF89A9502F /* TestA.m */; };
+		064AAF40346620891381F61EB5C395DC /* SADeepLinkProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AD5ECD8E86EBA165C47D751218FF9D /* SADeepLinkProcessor.m */; };
+		0655856723CE85160184D90A89FC6D56 /* SAEncryptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD6D88FB412953728151802A92EC4DA /* SAEncryptManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		082FB015F38495FE4DDEC33E0D373CAF /* Pods-TestLixiaokai_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0716977F76059318BAAEB1B9BD99404 /* Pods-TestLixiaokai_Tests-dummy.m */; };
+		089242F661CBB1B1426C76AA5141ECFE /* SADeepLinkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3D2771C626EBD6F6B04C00613D952C /* SADeepLinkConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08DAEE58225A5DCEC600A0431E42036B /* SAObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBAFB76E30806168AFB1618D530AD9 /* SAObjectSerializerContext.m */; };
+		092B2AFC6210FFBB22F89694D18BD10B /* SAUserDefaultsStorePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 11355186C2E6C67AD9AA9FB331F3A4DC /* SAUserDefaultsStorePlugin.m */; };
+		0BCD920F5E22B356B874AE961B975EFA /* SARemoteConfigInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF246A25EC44C9BD9413DF7C227A79A7 /* SARemoteConfigInterceptor.m */; };
+		0E0308C6C1B2E7C718997BA9A47503BC /* SensorsAnalyticsSDK+WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111A90479BD15ED297947BCA7DC6FD28 /* SensorsAnalyticsSDK+WebView.m */; };
+		0E90112E434681819BEB8551722413EF /* SAAppLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1A43C6BFCAC9F93CFAD6C646EAA23E /* SAAppLifecycle.m */; };
+		108A2A6A56C154E39D45A824E21B8715 /* SAPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A99EFA1DDAB3475B8FB17F9D71640E /* SAPropertyDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1133A540A8D8F4299A4CB725AC3C5F27 /* SAConfigOptions+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DB9891257EB2D07CB4E1C810344142 /* SAConfigOptions+Encrypt.m */; };
+		11A97C90BCAE7FCD56E3856D21275172 /* SensorsAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 165F89BC17238E90791BC6C5EB473FA1 /* SensorsAnalyticsSDK.m */; };
+		126A1C8923E658C95CDE8DA2C16DF294 /* SAObject+SAConfigOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DF1529BC31DB6F5F9ED212BE861F7 /* SAObject+SAConfigOptions.m */; };
+		12E7F3C55F8FF378FC4931342A9DAD91 /* SAHTTPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE314366FF86AF3F2D8D521B253231 /* SAHTTPSession.m */; };
+		1358780BDA2BD641A501BE200A2EAEC0 /* SAQueryDeepLinkProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F197BFE5697E91D44D458352207A6FB /* SAQueryDeepLinkProcessor.m */; };
+		143C4CFF2260EE9278F8D290F7FED765 /* UNUserNotificationCenter+SAPushClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4426ECD3822BB5CE5324BFCA2E3DBF3C /* UNUserNotificationCenter+SAPushClick.m */; };
+		159C66A676307D81590960FE2F950CEF /* SAVisualizedAbstractMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4653FB2DDB4542994404E95850F9D516 /* SAVisualizedAbstractMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1903D487BAEFE2AD2E74D7D1A886F166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1AA1DDE288A4306B1FC6BFAE1FA509A1 /* SAConfigOptions+Encrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F2A77DB7F808B34DBAADA4185522D6 /* SAConfigOptions+Encrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABF0B596B2F2F2FE50791DDDDDEA8B9 /* SAVisualizedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCB26E754D7D8C7C6891AC1B6BD302 /* SAVisualizedManager.m */; };
+		1C4DFD08742864DA137082ED13A6756F /* SAJavaScriptBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A36612F9BBD23F99EEB89E61CA1C26 /* SAJavaScriptBridgeManager.m */; };
+		1C662D1D9B2FF5E1C7E49B184120A81D /* SAAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF74BCEEE0FA66FB896025CAB5A060A /* SAAlertController.m */; };
+		1D66567E4DF0AB71C649BA5A483369A6 /* SADeepLinkEventProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A46EB8886AC6149401FACCD5DE4D7865 /* SADeepLinkEventProcessor.m */; };
+		1DDBED614BF45BD9E6F2AA2C27B68352 /* SAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 973BC4F95E8C205B5B4033115BA4436A /* SAConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9A1CB0BB2E517ACECC7A410A6CDB2F /* SAAESEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F354D1FC4E7AFE763FB5CDC2A07DD1 /* SAAESEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200FC011922C90338F75523582995684 /* SAApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F910C45F61E1039A4B31A9361B3CAB88 /* SAApplicationStateSerializer.m */; };
+		242C223C2F526F8251BB8AC27F9C7B2F /* SAFileStorePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F072BA47F9EADF7818039EEFA9B71F /* SAFileStorePlugin.m */; };
+		265806041915EBCBC1780DC8523BDA32 /* SensorsAnalyticsSDK+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4427ADF21C872BCF725E62A08E6ABD1C /* SensorsAnalyticsSDK+Location.m */; };
+		26AFDAC4615D924D837F7376811601C4 /* SAAppExtensionDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 053356DCFE244A5867B036B76CDB50E0 /* SAAppExtensionDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D644ACC5D087A47114C13D47453BC9 /* SAVisualizedObjectSerializerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C78357A3D2EE2DB56620B1B6DC141A9E /* SAVisualizedObjectSerializerManager.m */; };
+		276308E82AED198CFA585B911EAA9193 /* UNUserNotificationCenter+SAPushClick.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8EC901A2FA42361E7CEA66FB0009C6 /* UNUserNotificationCenter+SAPushClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27EFE2ACDA504424F626EA4D60356ED3 /* SAApplicationStateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9045C59E83166BAF41721306D67226 /* SAApplicationStateSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		280C659933CC16E2DBA28ED97A10FDF8 /* SensorsAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF0B6CF395A680D801B07A220941E65 /* SensorsAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2831F1E4CA293DFBC80890BC3DA725D8 /* SensorsAnalyticsSDK+JavaScriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2B4D54CCF676351265270666EF9E07 /* SensorsAnalyticsSDK+JavaScriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		286E9D1BF3F6941B7B5FD892897D5A11 /* Pods-TestLixiaokai_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A5DCF7121E4DD9239280FE3470AB0 /* Pods-TestLixiaokai_Example-dummy.m */; };
-		47A7211E966665F6277633F5D6BCD37E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2DF3384EFEE16E6C2AD30BE4CAE71749 /* SAValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = C768395C8296986FA8604E7800603445 /* SAValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0291B1F071B68C356DF59BF783AFE9 /* SAVisualizedAbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C96C3DEB04D6834E5280172C3EAC09 /* SAVisualizedAbstractMessage.m */; };
+		2F5B0FB40E7FDF066D68E22789FC51D4 /* SAObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FE4C63DECADA582A36B5B865F62944 /* SAObjectIdentityProvider.m */; };
+		2FEEF4F4F8DE0A953AF28E934D8885B3 /* SAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1985CE5D8F98C7B30F9C4217BC4F69 /* SAApplication.m */; };
+		303B524E8B739A1A5C28A2A4D0503916 /* SAVisualizedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2557C50FFFBA322788AEF19C66B786E4 /* SAVisualizedManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3164393193CBC294240D6FB7887772DD /* SAAutoTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C47C382F230136EB312B9E210D1790 /* SAAutoTrackManager.m */; };
+		31A452E077195D1700D969F44451F5EE /* SADeviceWhiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E8FAC7EBB163BAF11EC1F89F21886F /* SADeviceWhiteList.m */; };
+		32231642267D72D2DA195E14F1ADF9CD /* SASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67A3BBEA2C8B11C3A3AD2A60FE1018 /* SASwizzle.m */; };
+		32DED0281E96924BD0B4CF77301ED6A2 /* SALatestUtmPropertyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18736D2DAFB3AAD0E2911C05F56580 /* SALatestUtmPropertyPlugin.m */; };
+		364FE9DD4F7CAE6763CE1AFE935E7FF9 /* SAAESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C00947DF23DAD0F605DA6505DE06089 /* SAAESCrypt.m */; };
+		3706BDDEC227DEF6785E92362277E38C /* SAKeyChainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F462B278AB0975E4927D797FDA1762B /* SAKeyChainItemWrapper.m */; };
+		37FF9BA8E234CE99C9906F57136F7910 /* SensorsAnalyticsSDK+DebugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = B45E5458CF013E43726FEBF856D92C3C /* SensorsAnalyticsSDK+DebugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3821188405B5D50869CE1F3A56998745 /* SAVisualizedMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EA480C4AD028CAA6E48AA88E09DC7BCF /* SAVisualizedMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38AE91F0D208DA1C822C9B05C3D87E58 /* SARemoteConfigCheckOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5FE4C0643D9D34C05C351D31B8FB58 /* SARemoteConfigCheckOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D371D5923B26DE787C09BBCD22F79E /* SAAppPushConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC4828FB22B65103A128774F2050CC7 /* SAAppPushConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1748E9951FAE48831F65AE773000F4 /* SensorsAnalyticsSDK+Location.h in Headers */ = {isa = PBXBuildFile; fileRef = 623EC2C632A4E5437F4D486D65672626 /* SensorsAnalyticsSDK+Location.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B74DDE4F2EC15C26A086F4D0D521994 /* SARemoteConfigEventObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9579F93E50DD5961F4B47208F8485 /* SARemoteConfigEventObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EFEB6AE072B18B4C921727E88A78161 /* SAQueryDeepLinkProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6AC227AAAF3111C6A13D2D1ACD9E92 /* SAQueryDeepLinkProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2E3313D8C16CBE0FC39433D594C592 /* SAVisualizedUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 933AAF8C1B93CCD86EC1ADC90D356751 /* SAVisualizedUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F002A1F14E9054389D40FBC826493D /* SADebugModeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4955851B9FE029AB9F08607454E9F461 /* SADebugModeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427A4C080FB86222E65337897437C736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		428139786E7BE494B2BB95A84C8D6CA0 /* NSString+SAHashCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 295E812ED38A41F005B6DB9B060FFABE /* NSString+SAHashCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		433024586C8CFCF0290D75B9BDD3A82B /* SAVisualizedAutoTrackObjectSerializer+WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AD225909A49D9349273889A62F3879 /* SAVisualizedAutoTrackObjectSerializer+WebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F947F51A91DDB399CE619963E1CE79 /* SensorsAnalyticsSDK+Deeplink.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F51940627B303B7C0258E2E8C0B7C2F /* SensorsAnalyticsSDK+Deeplink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441D3417BF57EEBFE0C1D2BD4B042B86 /* WKWebView+SABridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCA4D5AAA2EB41E2CCD048AE4A7D95 /* WKWebView+SABridge.m */; };
+		4642EAEDEC717880FC87538E235F2C3F /* SAClassDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BD55A077FD6E3CC3C2D684670652A7C2 /* SAClassDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4672737DE75841985BE0B59036546913 /* SAConfigOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A9F7809F0FBB4F0F1BC30F2B942DE2 /* SAConfigOptions.m */; };
+		46CDD57D2E344A3319027532C60153AE /* SAAlgorithmProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F036F179677456A393FA6A57D800AD4C /* SAAlgorithmProtocol.m */; };
+		47B4AF47B0D83082AC9B34ED5507AA05 /* SensorsAnalyticsSDK+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8279BC85BBB8A2D370EBA1AB998E96 /* SensorsAnalyticsSDK+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49239EBD0F0B27E0884D4CAB8008C17F /* SensorsAnalyticsSDK+SAChannelMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = CC939A643F710BA54393380A8431BB56 /* SensorsAnalyticsSDK+SAChannelMatch.m */; };
+		4960AC5426800C719BAB5DEB5652957E /* SAObject+SAConfigOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B668170F44401129C8EF23981866BFE /* SAObject+SAConfigOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0A50F05D48BFD7CD848E0A897ACF5E /* Pods-TestLixiaokai_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3F88E87EF2F4B48DE6A09CFD2FEFFF /* Pods-TestLixiaokai_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D06D41B3FB3463F7414011F69B9F5B1 /* TestA.h in Headers */ = {isa = PBXBuildFile; fileRef = 90622532062EE72035D17292049828A4 /* TestA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7B4C8E5AE665775C3945B3F97E6B67 /* SensorsAnalyticsSDK+SAAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1794A93198C71265C773C3F71FAAC /* SensorsAnalyticsSDK+SAAppExtension.m */; };
+		4D32F46715D029874681CA2AD9EAB7D4 /* SARemoteConfigCommonOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A76C973000B3DAC96F42F9950908F /* SARemoteConfigCommonOperator.m */; };
+		4EE1E33B3459839B6EBDD265D9DC2FA8 /* SAChannelInfoPropertyPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 71006B33365855385DB312B530B2FB51 /* SAChannelInfoPropertyPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F96D6EDEAFF00B22AECED695EE0F03A /* SAVisualizedObjectSerializerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56142F43B6139857B27967C3CA41C307 /* SAVisualizedObjectSerializerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508446485F2AC0CA05455431B1CF656E /* SARemoteConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881374B1CAC025EA6AEA8EA8CEF8E58 /* SARemoteConfigManager.m */; };
+		5192B3D3175F9EE4CE7F75FD989E8E47 /* SADeviceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4D5809683DEFE8280A7645E2741F94 /* SADeviceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521916AFDDB116A21D2B2C3DC5196611 /* SARemoteConfigCheckOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED311F40AA46A8B41B0D65C28730EF9 /* SARemoteConfigCheckOperator.m */; };
+		52446F19A24A76CC205D3C9B052F00D4 /* SAJavaScriptBridgeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 350BEA18A33BDDC0B405374E88737A72 /* SAJavaScriptBridgeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52580F7FA1399EE3E77B1B851FCA150A /* SensorsAnalyticsSDK+Visualized.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BAE9455CC709FA8BC1DA87E6201666 /* SensorsAnalyticsSDK+Visualized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B0F0676AE3F21790224EA4C6F11EEF /* SensorsAnalyticsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C167FD2BF31DF6019FF3A52DCE472AB5 /* SensorsAnalyticsSDK.bundle */; };
+		56867FE003C77226CF815FFCCF83EE3B /* SensorsAnalyticsSDK+WKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA6F1E16A02037D959E1C195090802D /* SensorsAnalyticsSDK+WKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D7647393F47C82A1841FBBDB8E409E /* SAChannelMatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F571204422E2FFB6E1953C9D1DF7C0F /* SAChannelMatchManager.m */; };
+		5872193DA5239C6F5A5A3D1084BBCC6E /* SAVisualizedAutoTrackObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D7D9679BB1D200395DB33727AFE4E9 /* SAVisualizedAutoTrackObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590C1EABB4B3778AF85E098791021AF5 /* SATypeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A390FA87ECED0ECC450AB8BAAC07AE /* SATypeDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B11FCC6A62EA356AB8A1FD53012A81C /* SAAlgorithmProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6FEF0D128F7E1A7363FA13664E3448 /* SAAlgorithmProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B23B889511C2A4BEB3925C287C35479 /* SAVisualizedConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F2F09062D9AC675A2317F03A434392 /* SAVisualizedConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB0002298501B437C201F4E04440048 /* WKWebView+SABridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BDD45DE866FD8FC8654D2D03E5EAAD /* WKWebView+SABridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E42084AAC7B5CD3287544D35E6116A7 /* SASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB027093ED778DF80924F9055C45B21 /* SASwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1AC37356674754709D0E56D38C67C8 /* SAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 165AC843401D2715CDC6512A17A9E93C /* SAConstants.m */; };
+		613DF8FCFF70F5BB948D095D40D23665 /* SAAppPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 965505D0FDB2D5A3C91681B471763F68 /* SAAppPushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6523746459B2AE8461499C9CBF94133B /* SARemoteConfigEventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C8063844739D7C503F3D7217CA3055 /* SARemoteConfigEventObject.m */; };
+		66C0C7FC416A2D61E8D824F47DB3354E /* SAVisualizedSnapshotMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FC847E3B8532C1520704E4F8F8C6B6 /* SAVisualizedSnapshotMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68DCD30245A68A08A35581AD683FFEFC /* SensorsAnalyticsSDK+DebugMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE016E15AF9A498F96B123F7877582 /* SensorsAnalyticsSDK+DebugMode.m */; };
+		6A0615C3AA5C6665F73DFFDEBB7C4286 /* SAConfigOptions+RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 42500A31044A16B73151950AC08E921F /* SAConfigOptions+RemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB959A1BC1CD2E6269AE59EC4A33EA9 /* SAECCPluginEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EFAC39C5529E1DA73F6C6972323EFE /* SAECCPluginEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BDDCDD556C8DD74877238060F3E43EE /* SAObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 116203BACF1B7E1E97C92A17240CB561 /* SAObjectSerializerContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C367443F11B4CBA3FE1EE79A7F88A76 /* SAModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C741C3026646B8BCA2F032A238F8CD /* SAModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6BD8845276C57074CD15DF36E24B9B /* SAUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E80A72DB28022BBED567C2DFA24D8D7 /* SAUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD1771570BD8797C02173B7A89F9D4A /* SASlinkCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = B191184E88B6D46791C5B26D918F41E7 /* SASlinkCreator.m */; };
+		6E23C3816F45C94BEA5FAACC4B50AEDF /* UIApplication+SAPushClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F6972F26B1ECBEEE9A9DD017BD34B5 /* UIApplication+SAPushClick.m */; };
+		6ED6228E87B2F07F8360657AC1118366 /* SASecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92FE6B6725623175E6024D231F14306 /* SASecurityPolicy.m */; };
+		7036E8734E01725374E32E00B7DC6972 /* SARemoteConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F02933F7D9668E99B8680954000727 /* SARemoteConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FC807F8DF51C0F779F8C25F887C3F5 /* SAStoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A38675635EE5EF4F4290A791C3CCC /* SAStoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72FF75C03157F31095E5899063E23746 /* SARequestDeepLinkProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A32EE0026D826E290566D3C709F117A /* SARequestDeepLinkProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7517DF090E3BD5DAFD71750637350027 /* SAECCEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C2EE78DC820DD70BB19107C78C21DD /* SAECCEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7684836C6C87AF6B50DA24BD15FDE39C /* TestA.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D5F19CA66BAA4927C2173C8C244E9A /* TestA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770213CA0D17E1DE946384666710B175 /* SAExceptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F49D4CD24251286E6B7F381C98CA842D /* SAExceptionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780D8F04E465BCFF3737B93017E89E0B /* SAStorePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F1015396787174EBBA4FEAA250190D04 /* SAStorePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B26A2B43080C070561F03F8A22932C2 /* SensorsAnalyticsSDK+Public.h in Headers */ = {isa = PBXBuildFile; fileRef = B24501EFB778D91C25514568B25FE3BE /* SensorsAnalyticsSDK+Public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE067E69C918DC745727DD30ED93E23 /* SARSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55135FEA010D8EEB65B8FC6D300757A8 /* SARSAEncryptor.m */; };
+		7C85D1308E8F7B651D64F0F8B2EF537F /* SANotificationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7A2EFAFDED44B5408379811AD320FF /* SANotificationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4326527F67C3252D6AF165802FC7AC /* SANotificationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5614989320FCEE6ED0932AB2A3166D /* SANotificationUtil.m */; };
+		7E8DA0422A9549EC639DC2E8770BED74 /* SAConfigOptions+AppPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC29D9F83875D57A4C987796B029DD /* SAConfigOptions+AppPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F01CBC96FC2703A2CCEF941A570E3BF /* SARSAPluginEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B8773E01AC7A130AB5482CE7D7E3A4 /* SARSAPluginEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FBE97E2695DEC5AF671D80E414ABF90 /* SensorsAnalyticsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4FAB9996360E85333FFD00870D88523 /* SensorsAnalyticsSDK.bundle */; };
 		80A3EBABCFC26161F93B1A15D41B0A03 /* Pods-TestLixiaokai_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75C39A8D80B42BA1C6C363C3AD097C /* Pods-TestLixiaokai_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FBD6B554D69433B8DF42894F4D71AF /* SensorsAnalyticsSDK+SAAppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E6C0FF9C21E489965575AC414BE3F9 /* SensorsAnalyticsSDK+SAAppExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82830871DA7DDD51710D355B7287D838 /* SAFileStorePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 705D377D31E01F10FD1CBB95AE4F8C52 /* SAFileStorePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		830C2849049AE050625B193F3535958D /* NSString+SAHashCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38EE2256EFF98E17F59A2C1D7D1DC1 /* NSString+SAHashCode.m */; };
+		88A4AE1F0E2F3DBF97D21282A5302A9C /* SAAutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAD0F2CE4A91784C9E93EA3F3CB4E3 /* SAAutoTrackUtils.m */; };
+		89B29BA460A63B11B54741A8533DB986 /* SAObjectSerializerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF1D3360FCD206C71A7C1743DEA0428 /* SAObjectSerializerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ACA21D2E0005D31F60CF215DA391978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D750D9937BA7940C3160CBB9BBE6483D /* TestLixiaokai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */; };
-		ECFA0C91E4334FA62DF5DD679151612B /* TestLixiaokai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F467B029BDC7C3DA85C6C29E06959CAD /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */; };
+		8BC878DE7E01EA10B204C6D214C85BE2 /* SensorsAnalyticsSDK+DeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42821706EC8A1470873F6F4BA91EEB1B /* SensorsAnalyticsSDK+DeviceOrientation.m */; };
+		8C1652D5F20EB3B14CBDD18489A495AB /* SAVisualizedUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AADBD7A4A9FBC00ADED12B3A455E61A0 /* SAVisualizedUtils.m */; };
+		8C955019181ACCA38B9DE3F80A2E623D /* SARSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B750F9C46CA3DE269BEB8D9918C9343 /* SARSAEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9B736E9EB2CECB2F42B55FB2A59446 /* SAPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D324F09BB846356D9F966CEEBA71E9 /* SAPropertyDescription.m */; };
+		91A19A488F16915DD715E7B36A7AC92E /* SAECCPluginEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD50BAA57F336F1D25B5D8FFF9A74B4 /* SAECCPluginEncryptor.m */; };
+		92D2D3E32D24FAB35E8A191002BBF23F /* SAObjectIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A9E86AD78C8D9D0822FE67563BDBD5 /* SAObjectIdentityProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D2CB2663A677E6B6AEBC58044F5A1E /* SAModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B78A3FE929F008637A85BE117757144D /* SAModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944B26A934CAE8544EBC27F83B56C163 /* SAAppPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F23537E6C713E8DCC998ED6C4BA49FF7 /* SAAppPushManager.m */; };
+		946E0B89CB66F5A5F13C20A13DEF3EAA /* SensorsAnalyticsSDK+Deeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E412D56F58321D9A523985E174EE64 /* SensorsAnalyticsSDK+Deeplink.m */; };
+		9506CD15A7DF08906F4670588BC30946 /* SASecretKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78CC1A3D74FD36E6A6F873D5BDEF2D /* SASecretKey.m */; };
+		9577B5653DEA14B65BCCA869A3A6F537 /* SAVisualizedConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3196D7A1EA65BF91A8322D4D62273841 /* SAVisualizedConnection.m */; };
+		95909A6BA193DCDAD5F285F132AA8BE2 /* SASecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0347C8BB0D1DC613C0CCD904CA19FB /* SASecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1E913DA12E9B18EFA2EA03AB84527A /* SAAESEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76383AA834EBD538623FF23E7455636F /* SAAESEncryptor.m */; };
+		9C8BF1729F3FBF81D83E042A58FBC0DD /* SensorsAnalyticsSDK+DeviceOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD37FC2A37D4C2B4EBFEB8A54C0DABF /* SensorsAnalyticsSDK+DeviceOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F428654E89D0830E1ADD7EC53AB0AE7 /* SADeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A41FE004AE206090B55D542CEA167D /* SADeviceOrientationManager.m */; };
+		A0D894791946CC1D16FF9A7A5209DCC8 /* SAEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C95C6D74A09E800D047EC6DC9262D9EA /* SAEnumDescription.m */; };
+		A164347511AC7966FEA80C1FF4D43475 /* SAVisualizedAutoTrackObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EC802BB81F4BE2932DC71AD0FC6276 /* SAVisualizedAutoTrackObjectSerializer.m */; };
+		A1E7CDD5AD81DA64497B155414218D49 /* SAEncryptInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12481404A0C2E2F5649A71457A3FDAAF /* SAEncryptInterceptor.m */; };
+		A41E6DAE978AC35D9D074A801169E7EA /* UIApplication+SAPushClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EF1CAC25208F43E7288404EBE50413 /* UIApplication+SAPushClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA644F0843032E043CDB886E9BBA65BD /* SASlinkCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB1B296C31D265A626DC5B6518F3EDB /* SASlinkCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAB32D45AB009BD19EE134D5C567F63 /* SADeferredDeepLinkProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD18CC978152E318A646123D697633BB /* SADeferredDeepLinkProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC2E953013F9504DBBC86D93790B074C /* SASecretKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 60704A78E19A642F1499DB9DF35D045A /* SASecretKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2CAE4A8AAEBAD0B2F19D4D7C87C6E1 /* SAModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E24E8CF521AE7334C1B18664ECF26D5B /* SAModuleManager.m */; };
+		B75733B71C9F8E090AAD9EF19FE687FF /* SADeepLinkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E408CE0D3D117A82BDED92D2F647D71 /* SADeepLinkConstants.m */; };
+		B837390EF1DE37594CA21F9CEA31BF9F /* SARSAPluginEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1574592CEE13107858FF05E4808EC6 /* SARSAPluginEncryptor.m */; };
+		B9168BFEDB4411AAD2155AA3C5B61E5F /* SATypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D9D4D16F35CD68E8B72E7E7D4372D4 /* SATypeDescription.m */; };
+		BAAE1C4A361893521AD50A5729F95B1C /* SAApplicationDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A1676D8087DEAE0BF128BDF27D1996 /* SAApplicationDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9BB67072953C7EFE01FD2B51C3DEFF /* SensorsAnalyticsSDK+SAAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF2DEB936974B9ABAA891BF2EF15E9C /* SensorsAnalyticsSDK+SAAutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD07E321A886347758E72446F7B07EE3 /* SAKeyChainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4AEAA37437104899DC0B6EF66CB9CB /* SAKeyChainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE976F5679F7F25F6A04C103565DD8A0 /* SADeepLinkProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = ED70073C7A7DAACEB1DA74FE82F25C22 /* SADeepLinkProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB278FE73371B43A4F99410F07D21D7 /* SARemoteConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B990E74DBAF4E8A9B6104E477355AD /* SARemoteConfigModel.m */; };
+		BF5E47F84885AF2C4BCEDCFAC8D2B227 /* SALatestUtmPropertyPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 201A805A34546A1034F3A26A9567D130 /* SALatestUtmPropertyPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00633B774AB6D3042F8C6BB3A620BF7 /* SADeepLinkEventProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EE3C412934EBD3451DCCBEB3DEC70B /* SADeepLinkEventProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0894D3B5EEC7918B552576C021F71D8 /* SAEnumDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB4BAD4F2BE30FD256726FD07C185CC /* SAEnumDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08D4E740A06FE690D41FF95E1D78C8A /* SAAutoTrackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A772CDD980CBBE4BFA921F92A7343EBB /* SAAutoTrackManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19460B034E9F53BDC458517C058DF49 /* SAEncryptInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C257E22227A0304C2EE3417080D108E8 /* SAEncryptInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34257BDA09AE65472CEA1FA3535CA89 /* SAEncryptProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE5D7265915E04CE40C74B77B998C33 /* SAEncryptProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41168687AF680F772993816331C5FA9 /* SAHTTPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 784436A6AF1503F3940AF790DCD5E90E /* SAHTTPSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F805DAB5FCB8373E2CE9AEF2C49F62 /* SAValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C60BBEB8F1AA88934D2B8C49FB297E /* SAValueTransformers.m */; };
+		C6240F1E9EA511DD19C33FF2182934F8 /* SensorsAnalyticsSDK+WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 915EA0E479A74041BF0B1802EAEB8C85 /* SensorsAnalyticsSDK+WebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F7D9E46C2151D5A5B1184337A3BC03 /* SABaseStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE60E9F9F8283E255F84FA53135E3C6 /* SABaseStoreManager.m */; };
+		CA1684295B5F6B6BF994F937CDEA07A2 /* NSInvocation+SAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA59E51FA731D411ACFDDEBE7912C8 /* NSInvocation+SAHelpers.m */; };
+		CCF77D8688737421E205AFBAD403D161 /* SAApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 138D0D6BA4DD5C1A069C4DE9A480F7EC /* SAApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAEAC8C64DA56630DD554B40E175E0D /* SensorsAnalyticsSDK+SAAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF6DBC78740F181B243C190474E723 /* SensorsAnalyticsSDK+SAAutoTrack.m */; };
+		CE33C2BA8AF0270A635356524C885463 /* SALocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5FFE94B9C89B2C810FC67063075F69 /* SALocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AC8D3C3D511A3C0067D7EFC9A7D1C7 /* SASecretKeyFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E6437A11BD6CB7117D13BE7FBD2BC488 /* SASecretKeyFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C64DBB87BB9028677DC8AE497F7F7D /* SAAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3548114D64BEEDD2909A485AD73212BB /* SAAutoTrackProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36B34F076B558688E46BC048F83A31A /* SADeeplinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF052BB1ED82E8D82B7EE01684A0816C /* SADeeplinkManager.m */; };
+		D441730C4B61B4A61D6FA4524D058985 /* SARemoteConfigOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = FD01319796944D065B7C1E1A12A0E468 /* SARemoteConfigOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4761FC6D9D35AF439F162DBB1011A8E /* SAChannelInfoPropertyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCEA9B2FD64021F4AA69D490FB71970 /* SAChannelInfoPropertyPlugin.m */; };
+		D582520F6CBB90894350642CB6C189CE /* SAAppLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D707A5D63B2C4DD9CA800F1F1011E07 /* SAAppLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D598EE29D4A23028F3AE556570454B3F /* SADeeplinkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E578522AA4A82947DDEEC7F387ED3F7B /* SADeeplinkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6DAC301CD3C6F286B50A58792BAB41C /* SARemoteConfigInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA12FDA5286686CF01E961F315269A44 /* SARemoteConfigInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73CED1EBFD47EC1619CD711D73FE498 /* SADebugModeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A565C720B441641934DBB3770A8ADBC7 /* SADebugModeManager.m */; };
+		D78018A74E901E8AAC13062BD191329A /* SensorsAnalyticsSDK+WKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2CE393043D289917CB8352F03FEC0B /* SensorsAnalyticsSDK+WKWebView.m */; };
+		D7DDFEEB0B57A336598C1126498716D4 /* SAConfigOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3D875336675947056BF0913ECD17A4 /* SAConfigOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA012584BDDBB3E69DA996F6D324CD5E /* SAVisualizedAutoTrackObjectSerializer+WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50ADD9C7D0C30F55A0816E33EBE02F /* SAVisualizedAutoTrackObjectSerializer+WebView.m */; };
+		DA314BBB96F4B32322D973C45329DC4D /* SAUNUserNotificationCenterDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5E2FC65C12974F1FECB6BF84CC40E3 /* SAUNUserNotificationCenterDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD32146A83315FBDA90F8BE97972F068 /* SAChannelMatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 024C1C07D601B77D38168DD2AEFDD40E /* SAChannelMatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3351C02EDFBEC16969136EE5D9D9B3 /* SAConstants+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A31620F09A926AAB647F333DF94BF01 /* SAConstants+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEEFA1A1D4119CEA7BEA86A37A92EA98 /* SARemoteConfigOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F15803EDB25E7A5630F4D2ADB8C322 /* SARemoteConfigOperator.m */; };
+		E0E29D0105270EA0A3D5F3ADA050050B /* SAAppPushConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A7186720C64C0B23EBB57A1CFBB49 /* SAAppPushConstants.m */; };
+		E1F0781CF877CB7E7766C4444B24CE65 /* SARemoteConfigCommonOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0247FA8893A6F91E9C4DD99FC60F8C34 /* SARemoteConfigCommonOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FC9610B01C4CB1FA47297059C52832 /* SensorsAnalyticsSDK+SAChannelMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D86A2CA7C59D28C200AC1DD45225CE /* SensorsAnalyticsSDK+SAChannelMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E313C942BE0339BDE0FE2E7BFF577C85 /* SAUserDefaultsStorePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F73CB0D382A05BD1E445CEBCDB0AC4E /* SAUserDefaultsStorePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52B18066B3F4B19808D4A5D43BA17C1 /* SAVisualizedSnapshotMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0723F53A0D1B1FAE9E645DBAFAAB16 /* SAVisualizedSnapshotMessage.m */; };
+		E5997188212703513AA3A25D0CC38FC9 /* SASecretKeyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FABBD9C7F444AF341768FCE0B1B793E4 /* SASecretKeyFactory.m */; };
+		E5CAADFE4316E75F2D219193D379A48C /* SAClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D91D229F67DA40DCE2E3A87108A9CB0F /* SAClassDescription.m */; };
+		E5D7A8B26E87103C9A37291C0C0C4341 /* SABaseStoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A05C019E8A7043BAF3F3D7D9DCA9B5 /* SABaseStoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6135E2409DDEAF56C0002F667978ADD /* SARemoteConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1C57CE9D9B8BC7ADD22A38D0D64A25 /* SARemoteConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E745F7A9E3B6C68CE33937F5B41B5611 /* SAAppExtensionDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 868B5786E2C3997EB96588A2E7ED4FB1 /* SAAppExtensionDataManager.m */; };
+		E946E091CD965F5B7C2464067F55FF82 /* SAAppTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AE84293D95B1300FE6C8177848796 /* SAAppTracker.m */; };
+		E962853CFE8F06AB308BDE2606E26D25 /* SAECCEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D691BC218960C03DC33438DB7B90AF /* SAECCEncryptor.m */; };
+		E9A8AF17D44D620C482B6B6F05F557E7 /* TestLixiaokai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D57391B4E85DA1642ECE292D714C8 /* TestLixiaokai-dummy.m */; };
+		EA19150838A04EB13A70D89E3816AE2E /* SAAutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 72FA112D1EDA9845864A6D7822F5212F /* SAAutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEBFF9D08EC7B14B64B010989B71C84 /* TestLixiaokai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA99E7F697476689E48E6544B7E44715 /* TestLixiaokai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF0B6D2B9224A8434EA81A191C217CD /* SAObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E10AF1A2DECBF9E0EDEEB52821D9D0C9 /* SAObjectSerializerConfig.m */; };
+		F0B2D3D814375CBFFC2A41AF150421D5 /* SALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E681AD5836F6C43382A7E4BE19D686C /* SALocationManager.m */; };
+		F0EE9234296A59937B34B56057AE732E /* SARequestDeepLinkProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BDD30CF8FC91365F9AC59C3C6D39CC /* SARequestDeepLinkProcessor.m */; };
+		F36DA25EF077BC6AEEB5D955C229EAEC /* SAExceptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F37B3772CFB2A831256316BC49BDB035 /* SAExceptionManager.m */; };
+		F3D6279E7CF047A35B3795B44E46A754 /* SensorsAnalyticsSDK+Visualized.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5822F77D02CE8FCEF9043B63A4F7A /* SensorsAnalyticsSDK+Visualized.m */; };
+		F65390553FF7D3E21CC6BE411B1E747D /* SADeviceWhiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDBA635202FD2E707A576C68C27487E /* SADeviceWhiteList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6A100AC32245D154CA09C27E49495EB /* SAUNUserNotificationCenterDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C838F8AFE1A8C7A288F3FF0E7F2D90 /* SAUNUserNotificationCenterDelegateProxy.m */; };
+		F973AD6D7DF6CF7995790E0F607C339A /* SAStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017A6A3A7F00D8795898DB3139235A /* SAStoreManager.m */; };
+		FA82E90E9DC640263268DAB1426774AE /* NSInvocation+SAHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEF8D68804DE4046C95DF0E75E53B7A /* NSInvocation+SAHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD91106E1DF6D00E1A4558700DA5E96 /* SAAESStorePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D283424AA8A0B6063A9FCFD351DB9080 /* SAAESStorePlugin.m */; };
+		FDF92EAA984D360B766AC72BA8F2CF3D /* SAAESStorePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A90BE1FD8F1BD5550EC5052E67C1428C /* SAAESStorePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2F7F7ABC31B4AD5253070FA87DB943 /* SAUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED831AAE44793FDAA9ED1E573C4EA4C /* SAUserAgent.m */; };
+		FECCB644C0E8AE68C2131EFFB2EEAF9E /* SAEncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D028FFF56475785D0D89DC4235D1ECA /* SAEncryptManager.m */; };
+		FFD13DB315F8E30F394D216C4147929D /* SAAESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B79E3C316DCDCDDB74544A0D973FEEBD /* SAAESCrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		595BFF92EE33C8A210A56EE4335E7702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D3492E48C50AD18B222DAFE7BC4DFD;
+			remoteInfo = "TestLixiaokai-SensorsAnalyticsSDK";
+		};
 		A0C945C8BBED819D09A3F73488BF0FEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -38,56 +249,268 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0961EEA666230FA258FB55223E5C1DA5 /* TestLixiaokai.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestLixiaokai.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A8E7A601AE243BE510B1CC0E3B7CB3D /* TestLixiaokai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-prefix.pch"; sourceTree = "<group>"; };
+		0247FA8893A6F91E9C4DD99FC60F8C34 /* SARemoteConfigCommonOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigCommonOperator.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigCommonOperator.h; sourceTree = "<group>"; };
+		024C1C07D601B77D38168DD2AEFDD40E /* SAChannelMatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAChannelMatchManager.h; path = TestLixiaokai/Classes/ChannelMatch/SAChannelMatchManager.h; sourceTree = "<group>"; };
+		053356DCFE244A5867B036B76CDB50E0 /* SAAppExtensionDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppExtensionDataManager.h; path = TestLixiaokai/Classes/AppExtension/SAAppExtensionDataManager.h; sourceTree = "<group>"; };
+		05A36612F9BBD23F99EEB89E61CA1C26 /* SAJavaScriptBridgeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAJavaScriptBridgeManager.m; path = TestLixiaokai/Classes/JSBridge/SAJavaScriptBridgeManager.m; sourceTree = "<group>"; };
 		0AA93BFF6C630D174FDFD1C995920655 /* Pods-TestLixiaokai_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Example-Info.plist"; sourceTree = "<group>"; };
+		0E18736D2DAFB3AAD0E2911C05F56580 /* SALatestUtmPropertyPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALatestUtmPropertyPlugin.m; path = TestLixiaokai/Classes/Deeplink/SALatestUtmPropertyPlugin.m; sourceTree = "<group>"; };
+		0ECBAFB76E30806168AFB1618D530AD9 /* SAObjectSerializerContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAObjectSerializerContext.m; path = TestLixiaokai/Classes/Visualized/SAObjectSerializerContext.m; sourceTree = "<group>"; };
+		0EDF6DBC78740F181B243C190474E723 /* SensorsAnalyticsSDK+SAAutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+SAAutoTrack.m"; path = "TestLixiaokai/Classes/AutoTrack/SensorsAnalyticsSDK+SAAutoTrack.m"; sourceTree = "<group>"; };
+		0F197BFE5697E91D44D458352207A6FB /* SAQueryDeepLinkProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAQueryDeepLinkProcessor.m; path = TestLixiaokai/Classes/Deeplink/SAQueryDeepLinkProcessor.m; sourceTree = "<group>"; };
+		0F73CB0D382A05BD1E445CEBCDB0AC4E /* SAUserDefaultsStorePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUserDefaultsStorePlugin.h; path = TestLixiaokai/Classes/Store/SAUserDefaultsStorePlugin.h; sourceTree = "<group>"; };
+		111A90479BD15ED297947BCA7DC6FD28 /* SensorsAnalyticsSDK+WebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+WebView.m"; path = "TestLixiaokai/Classes/WebView/SensorsAnalyticsSDK+WebView.m"; sourceTree = "<group>"; };
+		11355186C2E6C67AD9AA9FB331F3A4DC /* SAUserDefaultsStorePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAUserDefaultsStorePlugin.m; path = TestLixiaokai/Classes/Store/SAUserDefaultsStorePlugin.m; sourceTree = "<group>"; };
+		116203BACF1B7E1E97C92A17240CB561 /* SAObjectSerializerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAObjectSerializerContext.h; path = TestLixiaokai/Classes/Visualized/SAObjectSerializerContext.h; sourceTree = "<group>"; };
+		12481404A0C2E2F5649A71457A3FDAAF /* SAEncryptInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAEncryptInterceptor.m; path = TestLixiaokai/Classes/Encrypt/SAEncryptInterceptor.m; sourceTree = "<group>"; };
 		13110C9962A66D04BDCFA65AEB987F23 /* Pods-TestLixiaokai_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		131EBCEE7AFBDD03DC7BE148996E7B99 /* TestLixiaokai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestLixiaokai-Info.plist"; sourceTree = "<group>"; };
+		138D0D6BA4DD5C1A069C4DE9A480F7EC /* SAApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAApplication.h; path = TestLixiaokai/Classes/Core/SAApplication.h; sourceTree = "<group>"; };
+		13F6972F26B1ECBEEE9A9DD017BD34B5 /* UIApplication+SAPushClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SAPushClick.m"; path = "TestLixiaokai/Classes/AppPush/UIApplication+SAPushClick.m"; sourceTree = "<group>"; };
+		165AC843401D2715CDC6512A17A9E93C /* SAConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConstants.m; path = TestLixiaokai/Classes/Core/SAConstants.m; sourceTree = "<group>"; };
+		165F89BC17238E90791BC6C5EB473FA1 /* SensorsAnalyticsSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensorsAnalyticsSDK.m; path = TestLixiaokai/Classes/Core/SensorsAnalyticsSDK.m; sourceTree = "<group>"; };
+		1881374B1CAC025EA6AEA8EA8CEF8E58 /* SARemoteConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigManager.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigManager.m; sourceTree = "<group>"; };
+		18D7D9679BB1D200395DB33727AFE4E9 /* SAVisualizedAutoTrackObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedAutoTrackObjectSerializer.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedAutoTrackObjectSerializer.h; sourceTree = "<group>"; };
+		1A31620F09A926AAB647F333DF94BF01 /* SAConstants+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConstants+Private.h"; path = "TestLixiaokai/Classes/Core/SAConstants+Private.h"; sourceTree = "<group>"; };
+		1B2B4D54CCF676351265270666EF9E07 /* SensorsAnalyticsSDK+JavaScriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+JavaScriptBridge.h"; path = "TestLixiaokai/Classes/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h"; sourceTree = "<group>"; };
+		1BA47A02F8512DC12F5C74E21B52AE71 /* SAApplicationDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAApplicationDelegateProxy.m; path = TestLixiaokai/Classes/AppPush/SAApplicationDelegateProxy.m; sourceTree = "<group>"; };
+		1BC4828FB22B65103A128774F2050CC7 /* SAAppPushConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppPushConstants.h; path = TestLixiaokai/Classes/AppPush/SAAppPushConstants.h; sourceTree = "<group>"; };
+		1C1985CE5D8F98C7B30F9C4217BC4F69 /* SAApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAApplication.m; path = TestLixiaokai/Classes/Core/SAApplication.m; sourceTree = "<group>"; };
+		1D707A5D63B2C4DD9CA800F1F1011E07 /* SAAppLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppLifecycle.h; path = TestLixiaokai/Classes/Core/SAAppLifecycle.h; sourceTree = "<group>"; };
+		1DF74BCEEE0FA66FB896025CAB5A060A /* SAAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAlertController.m; path = TestLixiaokai/Classes/Core/SAAlertController.m; sourceTree = "<group>"; };
+		1E681AD5836F6C43382A7E4BE19D686C /* SALocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALocationManager.m; path = TestLixiaokai/Classes/Location/SALocationManager.m; sourceTree = "<group>"; };
+		1F571204422E2FFB6E1953C9D1DF7C0F /* SAChannelMatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAChannelMatchManager.m; path = TestLixiaokai/Classes/ChannelMatch/SAChannelMatchManager.m; sourceTree = "<group>"; };
+		201A805A34546A1034F3A26A9567D130 /* SALatestUtmPropertyPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALatestUtmPropertyPlugin.h; path = TestLixiaokai/Classes/Deeplink/SALatestUtmPropertyPlugin.h; sourceTree = "<group>"; };
+		209B554CDF8C4AD807074DCF4C8F00ED /* TestLixiaokai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.debug.xcconfig; sourceTree = "<group>"; };
 		244BF60CE615685CB8AC40891C5A98D9 /* Pods-TestLixiaokai_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2520A36B88FFF473BF0BC6CD08E39CF2 /* TestLixiaokai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestLixiaokai.modulemap; sourceTree = "<group>"; };
+		24EC802BB81F4BE2932DC71AD0FC6276 /* SAVisualizedAutoTrackObjectSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedAutoTrackObjectSerializer.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedAutoTrackObjectSerializer.m; sourceTree = "<group>"; };
+		2557C50FFFBA322788AEF19C66B786E4 /* SAVisualizedManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedManager.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedManager.h; sourceTree = "<group>"; };
+		26FE4C63DECADA582A36B5B865F62944 /* SAObjectIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAObjectIdentityProvider.m; path = TestLixiaokai/Classes/Visualized/SAObjectIdentityProvider.m; sourceTree = "<group>"; };
+		27DB9891257EB2D07CB4E1C810344142 /* SAConfigOptions+Encrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SAConfigOptions+Encrypt.m"; path = "TestLixiaokai/Classes/Encrypt/SAConfigOptions+Encrypt.m"; sourceTree = "<group>"; };
+		295E812ED38A41F005B6DB9B060FFABE /* NSString+SAHashCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SAHashCode.h"; path = "TestLixiaokai/Classes/Core/NSString+SAHashCode.h"; sourceTree = "<group>"; };
+		2BDBA635202FD2E707A576C68C27487E /* SADeviceWhiteList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeviceWhiteList.h; path = TestLixiaokai/Classes/Deeplink/SADeviceWhiteList.h; sourceTree = "<group>"; };
+		2D028FFF56475785D0D89DC4235D1ECA /* SAEncryptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAEncryptManager.m; path = TestLixiaokai/Classes/Encrypt/SAEncryptManager.m; sourceTree = "<group>"; };
+		2E80A72DB28022BBED567C2DFA24D8D7 /* SAUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUserAgent.h; path = TestLixiaokai/Classes/Deeplink/SAUserAgent.h; sourceTree = "<group>"; };
+		2F6AC227AAAF3111C6A13D2D1ACD9E92 /* SAQueryDeepLinkProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAQueryDeepLinkProcessor.h; path = TestLixiaokai/Classes/Deeplink/SAQueryDeepLinkProcessor.h; sourceTree = "<group>"; };
 		3140FDCF6FA8455C5A3CA9DF5DC12DF4 /* Pods-TestLixiaokai_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLixiaokai_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3196D7A1EA65BF91A8322D4D62273841 /* SAVisualizedConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedConnection.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedConnection.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestLixiaokai-dummy.m"; sourceTree = "<group>"; };
+		350BEA18A33BDDC0B405374E88737A72 /* SAJavaScriptBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJavaScriptBridgeManager.h; path = TestLixiaokai/Classes/JSBridge/SAJavaScriptBridgeManager.h; sourceTree = "<group>"; };
+		3548114D64BEEDD2909A485AD73212BB /* SAAutoTrackProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackProperty.h; path = TestLixiaokai/Classes/AutoTrack/SAAutoTrackProperty.h; sourceTree = "<group>"; };
+		37F1794A93198C71265C773C3F71FAAC /* SensorsAnalyticsSDK+SAAppExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+SAAppExtension.m"; path = "TestLixiaokai/Classes/AppExtension/SensorsAnalyticsSDK+SAAppExtension.m"; sourceTree = "<group>"; };
+		38AE016E15AF9A498F96B123F7877582 /* SensorsAnalyticsSDK+DebugMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+DebugMode.m"; path = "TestLixiaokai/Classes/DebugMode/SensorsAnalyticsSDK+DebugMode.m"; sourceTree = "<group>"; };
+		3B668170F44401129C8EF23981866BFE /* SAObject+SAConfigOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAObject+SAConfigOptions.h"; path = "TestLixiaokai/Classes/Core/SAObject+SAConfigOptions.h"; sourceTree = "<group>"; };
+		3BE60E9F9F8283E255F84FA53135E3C6 /* SABaseStoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseStoreManager.m; path = TestLixiaokai/Classes/Store/SABaseStoreManager.m; sourceTree = "<group>"; };
+		3C00947DF23DAD0F605DA6505DE06089 /* SAAESCrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAESCrypt.m; path = TestLixiaokai/Classes/Store/SAAESCrypt.m; sourceTree = "<group>"; };
+		3C5614989320FCEE6ED0932AB2A3166D /* SANotificationUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SANotificationUtil.m; path = TestLixiaokai/Classes/AppPush/SANotificationUtil.m; sourceTree = "<group>"; };
+		3E8AE84293D95B1300FE6C8177848796 /* SAAppTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppTracker.m; path = TestLixiaokai/Classes/AutoTrack/SAAppTracker.m; sourceTree = "<group>"; };
+		3F3D875336675947056BF0913ECD17A4 /* SAConfigOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConfigOptions.h; path = TestLixiaokai/Classes/Core/SAConfigOptions.h; sourceTree = "<group>"; };
+		3FD5822F77D02CE8FCEF9043B63A4F7A /* SensorsAnalyticsSDK+Visualized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+Visualized.m"; path = "TestLixiaokai/Classes/Visualized/SensorsAnalyticsSDK+Visualized.m"; sourceTree = "<group>"; };
+		41A41FE004AE206090B55D542CEA167D /* SADeviceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeviceOrientationManager.m; path = TestLixiaokai/Classes/DeviceOrientation/SADeviceOrientationManager.m; sourceTree = "<group>"; };
+		42500A31044A16B73151950AC08E921F /* SAConfigOptions+RemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConfigOptions+RemoteConfig.h"; path = "TestLixiaokai/Classes/RemoteConfig/SAConfigOptions+RemoteConfig.h"; sourceTree = "<group>"; };
+		42821706EC8A1470873F6F4BA91EEB1B /* SensorsAnalyticsSDK+DeviceOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+DeviceOrientation.m"; path = "TestLixiaokai/Classes/DeviceOrientation/SensorsAnalyticsSDK+DeviceOrientation.m"; sourceTree = "<group>"; };
+		42BCB26E754D7D8C7C6891AC1B6BD302 /* SAVisualizedManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedManager.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedManager.m; sourceTree = "<group>"; };
+		4426ECD3822BB5CE5324BFCA2E3DBF3C /* UNUserNotificationCenter+SAPushClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UNUserNotificationCenter+SAPushClick.m"; path = "TestLixiaokai/Classes/AppPush/UNUserNotificationCenter+SAPushClick.m"; sourceTree = "<group>"; };
+		4427ADF21C872BCF725E62A08E6ABD1C /* SensorsAnalyticsSDK+Location.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+Location.m"; path = "TestLixiaokai/Classes/Location/SensorsAnalyticsSDK+Location.m"; sourceTree = "<group>"; };
+		4653FB2DDB4542994404E95850F9D516 /* SAVisualizedAbstractMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedAbstractMessage.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedAbstractMessage.h; sourceTree = "<group>"; };
+		46D5F19CA66BAA4927C2173C8C244E9A /* TestA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.h; path = TestLixiaokai/Classes/TestA/TestA.h; sourceTree = "<group>"; };
 		47279598A7FCBB65A9935AC7EED3CAF0 /* Pods-TestLixiaokai_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47A9F7809F0FBB4F0F1BC30F2B942DE2 /* SAConfigOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConfigOptions.m; path = TestLixiaokai/Classes/Core/SAConfigOptions.m; sourceTree = "<group>"; };
+		48F2F09062D9AC675A2317F03A434392 /* SAVisualizedConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedConnection.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedConnection.h; sourceTree = "<group>"; };
+		4955851B9FE029AB9F08607454E9F461 /* SADebugModeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADebugModeManager.h; path = TestLixiaokai/Classes/DebugMode/SADebugModeManager.h; sourceTree = "<group>"; };
+		49C47C382F230136EB312B9E210D1790 /* SAAutoTrackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAutoTrackManager.m; path = TestLixiaokai/Classes/AutoTrack/SAAutoTrackManager.m; sourceTree = "<group>"; };
+		4A5FFE94B9C89B2C810FC67063075F69 /* SALocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALocationManager.h; path = TestLixiaokai/Classes/Location/SALocationManager.h; sourceTree = "<group>"; };
+		4BDA59E51FA731D411ACFDDEBE7912C8 /* NSInvocation+SAHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+SAHelpers.m"; path = "TestLixiaokai/Classes/Visualized/NSInvocation+SAHelpers.m"; sourceTree = "<group>"; };
+		4C6FEF0D128F7E1A7363FA13664E3448 /* SAAlgorithmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAlgorithmProtocol.h; path = TestLixiaokai/Classes/Encrypt/SAAlgorithmProtocol.h; sourceTree = "<group>"; };
+		4C8279BC85BBB8A2D370EBA1AB998E96 /* SensorsAnalyticsSDK+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Private.h"; path = "TestLixiaokai/Classes/Core/SensorsAnalyticsSDK+Private.h"; sourceTree = "<group>"; };
+		53017A6A3A7F00D8795898DB3139235A /* SAStoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAStoreManager.m; path = TestLixiaokai/Classes/Core/SAStoreManager.m; sourceTree = "<group>"; };
+		54E6C0FF9C21E489965575AC414BE3F9 /* SensorsAnalyticsSDK+SAAppExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+SAAppExtension.h"; path = "TestLixiaokai/Classes/AppExtension/SensorsAnalyticsSDK+SAAppExtension.h"; sourceTree = "<group>"; };
+		55135FEA010D8EEB65B8FC6D300757A8 /* SARSAEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARSAEncryptor.m; path = TestLixiaokai/Classes/Encrypt/SARSAEncryptor.m; sourceTree = "<group>"; };
+		55AD5ECD8E86EBA165C47D751218FF9D /* SADeepLinkProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeepLinkProcessor.m; path = TestLixiaokai/Classes/Deeplink/SADeepLinkProcessor.m; sourceTree = "<group>"; };
+		56142F43B6139857B27967C3CA41C307 /* SAVisualizedObjectSerializerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedObjectSerializerManager.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedObjectSerializerManager.h; sourceTree = "<group>"; };
+		56BDD30CF8FC91365F9AC59C3C6D39CC /* SARequestDeepLinkProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARequestDeepLinkProcessor.m; path = TestLixiaokai/Classes/Deeplink/SARequestDeepLinkProcessor.m; sourceTree = "<group>"; };
+		58F02933F7D9668E99B8680954000727 /* SARemoteConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigModel.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigModel.h; sourceTree = "<group>"; };
+		5A0E78ACF3BE38C98674376ACC455E22 /* SAAppTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppTracker.h; path = TestLixiaokai/Classes/AutoTrack/SAAppTracker.h; sourceTree = "<group>"; };
+		5A7A76C973000B3DAC96F42F9950908F /* SARemoteConfigCommonOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigCommonOperator.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigCommonOperator.m; sourceTree = "<group>"; };
+		5EEC29D9F83875D57A4C987796B029DD /* SAConfigOptions+AppPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConfigOptions+AppPush.h"; path = "TestLixiaokai/Classes/AppPush/SAConfigOptions+AppPush.h"; sourceTree = "<group>"; };
+		60704A78E19A642F1499DB9DF35D045A /* SASecretKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASecretKey.h; path = TestLixiaokai/Classes/Encrypt/SASecretKey.h; sourceTree = "<group>"; };
 		6132C6C613A7CD61B2767516C52C52C7 /* Pods-TestLixiaokai_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Tests-Info.plist"; sourceTree = "<group>"; };
+		623EC2C632A4E5437F4D486D65672626 /* SensorsAnalyticsSDK+Location.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Location.h"; path = "TestLixiaokai/Classes/Location/SensorsAnalyticsSDK+Location.h"; sourceTree = "<group>"; };
+		6C5FE4C0643D9D34C05C351D31B8FB58 /* SARemoteConfigCheckOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigCheckOperator.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigCheckOperator.h; sourceTree = "<group>"; };
+		6DEE314366FF86AF3F2D8D521B253231 /* SAHTTPSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAHTTPSession.m; path = TestLixiaokai/Classes/Core/SAHTTPSession.m; sourceTree = "<group>"; };
+		6F51940627B303B7C0258E2E8C0B7C2F /* SensorsAnalyticsSDK+Deeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Deeplink.h"; path = "TestLixiaokai/Classes/Deeplink/SensorsAnalyticsSDK+Deeplink.h"; sourceTree = "<group>"; };
 		702E7C0E2CC98678121BB0B4C2E063EE /* TestLixiaokai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestLixiaokai.framework; path = TestLixiaokai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		705D377D31E01F10FD1CBB95AE4F8C52 /* SAFileStorePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAFileStorePlugin.h; path = TestLixiaokai/Classes/Store/SAFileStorePlugin.h; sourceTree = "<group>"; };
+		70BDD45DE866FD8FC8654D2D03E5EAAD /* WKWebView+SABridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+SABridge.h"; path = "TestLixiaokai/Classes/JSBridge/WKWebView+SABridge.h"; sourceTree = "<group>"; };
+		70C96C3DEB04D6834E5280172C3EAC09 /* SAVisualizedAbstractMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedAbstractMessage.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedAbstractMessage.m; sourceTree = "<group>"; };
+		71006B33365855385DB312B530B2FB51 /* SAChannelInfoPropertyPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAChannelInfoPropertyPlugin.h; path = TestLixiaokai/Classes/ChannelMatch/SAChannelInfoPropertyPlugin.h; sourceTree = "<group>"; };
+		72FA112D1EDA9845864A6D7822F5212F /* SAAutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackUtils.h; path = TestLixiaokai/Classes/AutoTrack/SAAutoTrackUtils.h; sourceTree = "<group>"; };
+		73A1676D8087DEAE0BF128BDF27D1996 /* SAApplicationDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAApplicationDelegateProxy.h; path = TestLixiaokai/Classes/AppPush/SAApplicationDelegateProxy.h; sourceTree = "<group>"; };
 		7416073A3B7FDA06A78BFF4937F957FB /* Pods-TestLixiaokai_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLixiaokai_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74C9579F93E50DD5961F4B47208F8485 /* SARemoteConfigEventObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigEventObject.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigEventObject.h; sourceTree = "<group>"; };
+		75E412D56F58321D9A523985E174EE64 /* SensorsAnalyticsSDK+Deeplink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+Deeplink.m"; path = "TestLixiaokai/Classes/Deeplink/SensorsAnalyticsSDK+Deeplink.m"; sourceTree = "<group>"; };
+		76383AA834EBD538623FF23E7455636F /* SAAESEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAESEncryptor.m; path = TestLixiaokai/Classes/Encrypt/SAAESEncryptor.m; sourceTree = "<group>"; };
+		77EE3C412934EBD3451DCCBEB3DEC70B /* SADeepLinkEventProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeepLinkEventProcessor.h; path = TestLixiaokai/Classes/Deeplink/SADeepLinkEventProcessor.h; sourceTree = "<group>"; };
+		784436A6AF1503F3940AF790DCD5E90E /* SAHTTPSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAHTTPSession.h; path = TestLixiaokai/Classes/Core/SAHTTPSession.h; sourceTree = "<group>"; };
+		796575290F6FFE43DA2D14BB8FE1F6D7 /* ResourceBundle-SensorsAnalyticsSDK-TestLixiaokai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SensorsAnalyticsSDK-TestLixiaokai-Info.plist"; sourceTree = "<group>"; };
+		7B0347C8BB0D1DC613C0CCD904CA19FB /* SASecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASecurityPolicy.h; path = TestLixiaokai/Classes/Core/SASecurityPolicy.h; sourceTree = "<group>"; };
+		7D38EE2256EFF98E17F59A2C1D7D1DC1 /* NSString+SAHashCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SAHashCode.m"; path = "TestLixiaokai/Classes/Core/NSString+SAHashCode.m"; sourceTree = "<group>"; };
+		7DA6F1E16A02037D959E1C195090802D /* SensorsAnalyticsSDK+WKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+WKWebView.h"; path = "TestLixiaokai/Classes/WKWebView/SensorsAnalyticsSDK+WKWebView.h"; sourceTree = "<group>"; };
+		80A99EFA1DDAB3475B8FB17F9D71640E /* SAPropertyDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPropertyDescription.h; path = TestLixiaokai/Classes/Visualized/SAPropertyDescription.h; sourceTree = "<group>"; };
 		81BCB742AAD7309335A6EAA9B880F8B4 /* Pods-TestLixiaokai_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestLixiaokai_Tests.modulemap"; sourceTree = "<group>"; };
 		823A5DCF7121E4DD9239280FE3470AB0 /* Pods-TestLixiaokai_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLixiaokai_Example-dummy.m"; sourceTree = "<group>"; };
-		899B6FE6BAC7C4140B83A4E0894A49CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		832A38675635EE5EF4F4290A791C3CCC /* SAStoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAStoreManager.h; path = TestLixiaokai/Classes/Core/SAStoreManager.h; sourceTree = "<group>"; };
+		868B5786E2C3997EB96588A2E7ED4FB1 /* SAAppExtensionDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppExtensionDataManager.m; path = TestLixiaokai/Classes/AppExtension/SAAppExtensionDataManager.m; sourceTree = "<group>"; };
+		889E2DDC46FB46871BE8D8CF89A9502F /* TestA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestA.m; path = TestLixiaokai/Classes/TestA/TestA.m; sourceTree = "<group>"; };
 		89BAB1F30CE91ABE2C2CFBB183C43153 /* Pods-TestLixiaokai_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLixiaokai_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8AB1B296C31D265A626DC5B6518F3EDB /* SASlinkCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASlinkCreator.h; path = TestLixiaokai/Classes/Deeplink/SASlinkCreator.h; sourceTree = "<group>"; };
+		8B0DF1529BC31DB6F5F9ED212BE861F7 /* SAObject+SAConfigOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SAObject+SAConfigOptions.m"; path = "TestLixiaokai/Classes/Core/SAObject+SAConfigOptions.m"; sourceTree = "<group>"; };
 		8C3F88E87EF2F4B48DE6A09CFD2FEFFF /* Pods-TestLixiaokai_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLixiaokai_Example-umbrella.h"; sourceTree = "<group>"; };
-		90622532062EE72035D17292049828A4 /* TestA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.h; path = TestLixiaokai/Classes/TestA/TestA.h; sourceTree = "<group>"; };
-		96EA48BA7522E680C9D155C2A1CF14A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestA.m; path = TestLixiaokai/Classes/TestA/TestA.m; sourceTree = "<group>"; };
+		8E408CE0D3D117A82BDED92D2F647D71 /* SADeepLinkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeepLinkConstants.m; path = TestLixiaokai/Classes/Deeplink/SADeepLinkConstants.m; sourceTree = "<group>"; };
+		8ED311F40AA46A8B41B0D65C28730EF9 /* SARemoteConfigCheckOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigCheckOperator.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigCheckOperator.m; sourceTree = "<group>"; };
+		8ED831AAE44793FDAA9ED1E573C4EA4C /* SAUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAUserAgent.m; path = TestLixiaokai/Classes/Deeplink/SAUserAgent.m; sourceTree = "<group>"; };
+		8F462B278AB0975E4927D797FDA1762B /* SAKeyChainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAKeyChainItemWrapper.m; path = TestLixiaokai/Classes/Core/SAKeyChainItemWrapper.m; sourceTree = "<group>"; };
+		90D9D4D16F35CD68E8B72E7E7D4372D4 /* SATypeDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SATypeDescription.m; path = TestLixiaokai/Classes/Visualized/SATypeDescription.m; sourceTree = "<group>"; };
+		915EA0E479A74041BF0B1802EAEB8C85 /* SensorsAnalyticsSDK+WebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+WebView.h"; path = "TestLixiaokai/Classes/WebView/SensorsAnalyticsSDK+WebView.h"; sourceTree = "<group>"; };
+		933AAF8C1B93CCD86EC1ADC90D356751 /* SAVisualizedUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedUtils.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedUtils.h; sourceTree = "<group>"; };
+		93D324F09BB846356D9F966CEEBA71E9 /* SAPropertyDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAPropertyDescription.m; path = TestLixiaokai/Classes/Visualized/SAPropertyDescription.m; sourceTree = "<group>"; };
+		93FC847E3B8532C1520704E4F8F8C6B6 /* SAVisualizedSnapshotMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedSnapshotMessage.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedSnapshotMessage.h; sourceTree = "<group>"; };
+		94E8FAC7EBB163BAF11EC1F89F21886F /* SADeviceWhiteList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeviceWhiteList.m; path = TestLixiaokai/Classes/Deeplink/SADeviceWhiteList.m; sourceTree = "<group>"; };
+		95EF1CAC25208F43E7288404EBE50413 /* UIApplication+SAPushClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SAPushClick.h"; path = "TestLixiaokai/Classes/AppPush/UIApplication+SAPushClick.h"; sourceTree = "<group>"; };
+		965505D0FDB2D5A3C91681B471763F68 /* SAAppPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppPushManager.h; path = TestLixiaokai/Classes/AppPush/SAAppPushManager.h; sourceTree = "<group>"; };
+		96A9E86AD78C8D9D0822FE67563BDBD5 /* SAObjectIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAObjectIdentityProvider.h; path = TestLixiaokai/Classes/Visualized/SAObjectIdentityProvider.h; sourceTree = "<group>"; };
+		973BC4F95E8C205B5B4033115BA4436A /* SAConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConstants.h; path = TestLixiaokai/Classes/Core/SAConstants.h; sourceTree = "<group>"; };
+		99247580414C99D0189BDAFBC7BEF2C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9A32EE0026D826E290566D3C709F117A /* SARequestDeepLinkProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARequestDeepLinkProcessor.h; path = TestLixiaokai/Classes/Deeplink/SARequestDeepLinkProcessor.h; sourceTree = "<group>"; };
+		9B750F9C46CA3DE269BEB8D9918C9343 /* SARSAEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARSAEncryptor.h; path = TestLixiaokai/Classes/Encrypt/SARSAEncryptor.h; sourceTree = "<group>"; };
+		9C2CE393043D289917CB8352F03FEC0B /* SensorsAnalyticsSDK+WKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+WKWebView.m"; path = "TestLixiaokai/Classes/WKWebView/SensorsAnalyticsSDK+WKWebView.m"; sourceTree = "<group>"; };
+		9D67A3BBEA2C8B11C3A3AD2A60FE1018 /* SASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASwizzle.m; path = TestLixiaokai/Classes/Core/SASwizzle.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1A7186720C64C0B23EBB57A1CFBB49 /* SAAppPushConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppPushConstants.m; path = TestLixiaokai/Classes/AppPush/SAAppPushConstants.m; sourceTree = "<group>"; };
+		9EF1D3360FCD206C71A7C1743DEA0428 /* SAObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAObjectSerializerConfig.h; path = TestLixiaokai/Classes/Visualized/SAObjectSerializerConfig.h; sourceTree = "<group>"; };
+		9F4AEAA37437104899DC0B6EF66CB9CB /* SAKeyChainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAKeyChainItemWrapper.h; path = TestLixiaokai/Classes/Core/SAKeyChainItemWrapper.h; sourceTree = "<group>"; };
+		A0C2EE78DC820DD70BB19107C78C21DD /* SAECCEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAECCEncryptor.h; path = TestLixiaokai/Classes/Encrypt/SAECCEncryptor.h; sourceTree = "<group>"; };
+		A2D86A2CA7C59D28C200AC1DD45225CE /* SensorsAnalyticsSDK+SAChannelMatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+SAChannelMatch.h"; path = "TestLixiaokai/Classes/ChannelMatch/SensorsAnalyticsSDK+SAChannelMatch.h"; sourceTree = "<group>"; };
+		A46EB8886AC6149401FACCD5DE4D7865 /* SADeepLinkEventProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeepLinkEventProcessor.m; path = TestLixiaokai/Classes/Deeplink/SADeepLinkEventProcessor.m; sourceTree = "<group>"; };
+		A565C720B441641934DBB3770A8ADBC7 /* SADebugModeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADebugModeManager.m; path = TestLixiaokai/Classes/DebugMode/SADebugModeManager.m; sourceTree = "<group>"; };
+		A772CDD980CBBE4BFA921F92A7343EBB /* SAAutoTrackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackManager.h; path = TestLixiaokai/Classes/AutoTrack/SAAutoTrackManager.h; sourceTree = "<group>"; };
+		A8F15803EDB25E7A5630F4D2ADB8C322 /* SARemoteConfigOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigOperator.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigOperator.m; sourceTree = "<group>"; };
+		A90BE1FD8F1BD5550EC5052E67C1428C /* SAAESStorePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAESStorePlugin.h; path = TestLixiaokai/Classes/Store/SAAESStorePlugin.h; sourceTree = "<group>"; };
+		AA99E7F697476689E48E6544B7E44715 /* TestLixiaokai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-umbrella.h"; sourceTree = "<group>"; };
+		AADBD7A4A9FBC00ADED12B3A455E61A0 /* SAVisualizedUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedUtils.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedUtils.m; sourceTree = "<group>"; };
+		ABD6D88FB412953728151802A92EC4DA /* SAEncryptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEncryptManager.h; path = TestLixiaokai/Classes/Encrypt/SAEncryptManager.h; sourceTree = "<group>"; };
 		AC75C39A8D80B42BA1C6C363C3AD097C /* Pods-TestLixiaokai_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLixiaokai_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.debug.xcconfig; sourceTree = "<group>"; };
+		AD18CC978152E318A646123D697633BB /* SADeferredDeepLinkProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeferredDeepLinkProcessor.h; path = TestLixiaokai/Classes/Deeplink/SADeferredDeepLinkProcessor.h; sourceTree = "<group>"; };
+		AD50ADD9C7D0C30F55A0816E33EBE02F /* SAVisualizedAutoTrackObjectSerializer+WebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SAVisualizedAutoTrackObjectSerializer+WebView.m"; path = "TestLixiaokai/Classes/WebView/SAVisualizedAutoTrackObjectSerializer+WebView.m"; sourceTree = "<group>"; };
+		B0AD225909A49D9349273889A62F3879 /* SAVisualizedAutoTrackObjectSerializer+WebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAVisualizedAutoTrackObjectSerializer+WebView.h"; path = "TestLixiaokai/Classes/WebView/SAVisualizedAutoTrackObjectSerializer+WebView.h"; sourceTree = "<group>"; };
+		B0F2A77DB7F808B34DBAADA4185522D6 /* SAConfigOptions+Encrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConfigOptions+Encrypt.h"; path = "TestLixiaokai/Classes/Encrypt/SAConfigOptions+Encrypt.h"; sourceTree = "<group>"; };
+		B191184E88B6D46791C5B26D918F41E7 /* SASlinkCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASlinkCreator.m; path = TestLixiaokai/Classes/Deeplink/SASlinkCreator.m; sourceTree = "<group>"; };
+		B24501EFB778D91C25514568B25FE3BE /* SensorsAnalyticsSDK+Public.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Public.h"; path = "TestLixiaokai/Classes/Core/SensorsAnalyticsSDK+Public.h"; sourceTree = "<group>"; };
+		B2D31751930E5DB85C857857CD3E59B9 /* TestLixiaokai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestLixiaokai.modulemap; sourceTree = "<group>"; };
+		B3C741C3026646B8BCA2F032A238F8CD /* SAModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAModuleManager.h; path = TestLixiaokai/Classes/Core/SAModuleManager.h; sourceTree = "<group>"; };
+		B45E5458CF013E43726FEBF856D92C3C /* SensorsAnalyticsSDK+DebugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+DebugMode.h"; path = "TestLixiaokai/Classes/DebugMode/SensorsAnalyticsSDK+DebugMode.h"; sourceTree = "<group>"; };
+		B78A3FE929F008637A85BE117757144D /* SAModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAModuleProtocol.h; path = TestLixiaokai/Classes/Core/SAModuleProtocol.h; sourceTree = "<group>"; };
+		B79E3C316DCDCDDB74544A0D973FEEBD /* SAAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAESCrypt.h; path = TestLixiaokai/Classes/Store/SAAESCrypt.h; sourceTree = "<group>"; };
 		BB89DE5BD1423BCC7094423C70DE85A1 /* Pods_TestLixiaokai_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestLixiaokai_Tests.framework; path = "Pods-TestLixiaokai_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF0B6CF395A680D801B07A220941E65 /* SensorsAnalyticsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensorsAnalyticsSDK.h; path = TestLixiaokai/Classes/Core/SensorsAnalyticsSDK.h; sourceTree = "<group>"; };
+		BD55A077FD6E3CC3C2D684670652A7C2 /* SAClassDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAClassDescription.h; path = TestLixiaokai/Classes/Visualized/SAClassDescription.h; sourceTree = "<group>"; };
+		BE1658F8C27A126180972FA633FBCD69 /* SADeferredDeepLinkProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeferredDeepLinkProcessor.m; path = TestLixiaokai/Classes/Deeplink/SADeferredDeepLinkProcessor.m; sourceTree = "<group>"; };
+		BF1F71B7DCE6C4B4C883E12DB236C480 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF246A25EC44C9BD9413DF7C227A79A7 /* SARemoteConfigInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigInterceptor.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigInterceptor.m; sourceTree = "<group>"; };
+		BF78CC1A3D74FD36E6A6F873D5BDEF2D /* SASecretKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASecretKey.m; path = TestLixiaokai/Classes/Encrypt/SASecretKey.m; sourceTree = "<group>"; };
+		BFCEA9B2FD64021F4AA69D490FB71970 /* SAChannelInfoPropertyPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAChannelInfoPropertyPlugin.m; path = TestLixiaokai/Classes/ChannelMatch/SAChannelInfoPropertyPlugin.m; sourceTree = "<group>"; };
 		C0C8C80CF5384486A753B5CF97223092 /* Pods-TestLixiaokai_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestLixiaokai_Example.modulemap"; sourceTree = "<group>"; };
+		C15D57391B4E85DA1642ECE292D714C8 /* TestLixiaokai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestLixiaokai-dummy.m"; sourceTree = "<group>"; };
+		C167FD2BF31DF6019FF3A52DCE472AB5 /* SensorsAnalyticsSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SensorsAnalyticsSDK.bundle; path = "TestLixiaokai-SensorsAnalyticsSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C257E22227A0304C2EE3417080D108E8 /* SAEncryptInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEncryptInterceptor.h; path = TestLixiaokai/Classes/Encrypt/SAEncryptInterceptor.h; sourceTree = "<group>"; };
+		C4D691BC218960C03DC33438DB7B90AF /* SAECCEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAECCEncryptor.m; path = TestLixiaokai/Classes/Encrypt/SAECCEncryptor.m; sourceTree = "<group>"; };
+		C5C838F8AFE1A8C7A288F3FF0E7F2D90 /* SAUNUserNotificationCenterDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAUNUserNotificationCenterDelegateProxy.m; path = TestLixiaokai/Classes/AppPush/SAUNUserNotificationCenterDelegateProxy.m; sourceTree = "<group>"; };
+		C768395C8296986FA8604E7800603445 /* SAValueTransformers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAValueTransformers.h; path = TestLixiaokai/Classes/Visualized/SAValueTransformers.h; sourceTree = "<group>"; };
+		C78357A3D2EE2DB56620B1B6DC141A9E /* SAVisualizedObjectSerializerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedObjectSerializerManager.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedObjectSerializerManager.m; sourceTree = "<group>"; };
+		C95C6D74A09E800D047EC6DC9262D9EA /* SAEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAEnumDescription.m; path = TestLixiaokai/Classes/Visualized/SAEnumDescription.m; sourceTree = "<group>"; };
 		C9A172C7A7C8CB9EF8279225416273CB /* Pods-TestLixiaokai_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9B990E74DBAF4E8A9B6104E477355AD /* SARemoteConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigModel.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigModel.m; sourceTree = "<group>"; };
+		CBD50BAA57F336F1D25B5D8FFF9A74B4 /* SAECCPluginEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAECCPluginEncryptor.m; path = TestLixiaokai/Classes/Encrypt/SAECCPluginEncryptor.m; sourceTree = "<group>"; };
+		CBEF8D68804DE4046C95DF0E75E53B7A /* NSInvocation+SAHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+SAHelpers.h"; path = "TestLixiaokai/Classes/Visualized/NSInvocation+SAHelpers.h"; sourceTree = "<group>"; };
+		CC1C57CE9D9B8BC7ADD22A38D0D64A25 /* SARemoteConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigManager.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigManager.h; sourceTree = "<group>"; };
+		CC939A643F710BA54393380A8431BB56 /* SensorsAnalyticsSDK+SAChannelMatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SensorsAnalyticsSDK+SAChannelMatch.m"; path = "TestLixiaokai/Classes/ChannelMatch/SensorsAnalyticsSDK+SAChannelMatch.m"; sourceTree = "<group>"; };
+		CDBCA4D5AAA2EB41E2CCD048AE4A7D95 /* WKWebView+SABridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+SABridge.m"; path = "TestLixiaokai/Classes/JSBridge/WKWebView+SABridge.m"; sourceTree = "<group>"; };
 		CEB12DE7AA3D70956318AE21ABF0091D /* Pods-TestLixiaokai_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3D2771C626EBD6F6B04C00613D952C /* SADeepLinkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeepLinkConstants.h; path = TestLixiaokai/Classes/Deeplink/SADeepLinkConstants.h; sourceTree = "<group>"; };
 		D0716977F76059318BAAEB1B9BD99404 /* Pods-TestLixiaokai_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLixiaokai_Tests-dummy.m"; sourceTree = "<group>"; };
-		D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-umbrella.h"; sourceTree = "<group>"; };
-		D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.release.xcconfig; sourceTree = "<group>"; };
-		D545DD75F3189BB4EF7F3233C5C74750 /* TestLixiaokai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestLixiaokai-Info.plist"; sourceTree = "<group>"; };
+		D283424AA8A0B6063A9FCFD351DB9080 /* SAAESStorePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAESStorePlugin.m; path = TestLixiaokai/Classes/Store/SAAESStorePlugin.m; sourceTree = "<group>"; };
+		D2F9F4FE553AE030D790E4839AFB9875 /* SAConfigOptions+Exception.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConfigOptions+Exception.h"; path = "TestLixiaokai/Classes/Exception/SAConfigOptions+Exception.h"; sourceTree = "<group>"; };
+		D6A05C019E8A7043BAF3F3D7D9DCA9B5 /* SABaseStoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseStoreManager.h; path = TestLixiaokai/Classes/Store/SABaseStoreManager.h; sourceTree = "<group>"; };
+		D7A390FA87ECED0ECC450AB8BAAC07AE /* SATypeDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SATypeDescription.h; path = TestLixiaokai/Classes/Visualized/SATypeDescription.h; sourceTree = "<group>"; };
+		D8EF8354D2E547CB0CCD2DE9B5C8D365 /* TestLixiaokai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-prefix.pch"; sourceTree = "<group>"; };
+		D91D229F67DA40DCE2E3A87108A9CB0F /* SAClassDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAClassDescription.m; path = TestLixiaokai/Classes/Visualized/SAClassDescription.m; sourceTree = "<group>"; };
+		D92FE6B6725623175E6024D231F14306 /* SASecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASecurityPolicy.m; path = TestLixiaokai/Classes/Core/SASecurityPolicy.m; sourceTree = "<group>"; };
+		DA4D5809683DEFE8280A7645E2741F94 /* SADeviceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeviceOrientationManager.h; path = TestLixiaokai/Classes/DeviceOrientation/SADeviceOrientationManager.h; sourceTree = "<group>"; };
+		DCB4BAD4F2BE30FD256726FD07C185CC /* SAEnumDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEnumDescription.h; path = TestLixiaokai/Classes/Visualized/SAEnumDescription.h; sourceTree = "<group>"; };
+		DCE5D7265915E04CE40C74B77B998C33 /* SAEncryptProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEncryptProtocol.h; path = TestLixiaokai/Classes/Encrypt/SAEncryptProtocol.h; sourceTree = "<group>"; };
+		DD0723F53A0D1B1FAE9E645DBAFAAB16 /* SAVisualizedSnapshotMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVisualizedSnapshotMessage.m; path = TestLixiaokai/Classes/Visualized/SAVisualizedSnapshotMessage.m; sourceTree = "<group>"; };
 		DD186A69AB5946886170DB8008ED4964 /* Pods-TestLixiaokai_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD9045C59E83166BAF41721306D67226 /* SAApplicationStateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAApplicationStateSerializer.h; path = TestLixiaokai/Classes/Visualized/SAApplicationStateSerializer.h; sourceTree = "<group>"; };
+		E10AF1A2DECBF9E0EDEEB52821D9D0C9 /* SAObjectSerializerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAObjectSerializerConfig.m; path = TestLixiaokai/Classes/Visualized/SAObjectSerializerConfig.m; sourceTree = "<group>"; };
+		E24E8CF521AE7334C1B18664ECF26D5B /* SAModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAModuleManager.m; path = TestLixiaokai/Classes/Core/SAModuleManager.m; sourceTree = "<group>"; };
+		E3359B43BB269EE4432F5CB68B7D09AC /* TestLixiaokai.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestLixiaokai.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3B8773E01AC7A130AB5482CE7D7E3A4 /* SARSAPluginEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARSAPluginEncryptor.h; path = TestLixiaokai/Classes/Encrypt/SARSAPluginEncryptor.h; sourceTree = "<group>"; };
+		E47CB90FCFA2D9083140946E79BB30C3 /* SAAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAlertController.h; path = TestLixiaokai/Classes/Core/SAAlertController.h; sourceTree = "<group>"; };
+		E578522AA4A82947DDEEC7F387ED3F7B /* SADeeplinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeeplinkManager.h; path = TestLixiaokai/Classes/Deeplink/SADeeplinkManager.h; sourceTree = "<group>"; };
+		E6437A11BD6CB7117D13BE7FBD2BC488 /* SASecretKeyFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASecretKeyFactory.h; path = TestLixiaokai/Classes/Encrypt/SASecretKeyFactory.h; sourceTree = "<group>"; };
+		E8FAD0F2CE4A91784C9E93EA3F3CB4E3 /* SAAutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAutoTrackUtils.m; path = TestLixiaokai/Classes/AutoTrack/SAAutoTrackUtils.m; sourceTree = "<group>"; };
+		E9BAE9455CC709FA8BC1DA87E6201666 /* SensorsAnalyticsSDK+Visualized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Visualized.h"; path = "TestLixiaokai/Classes/Visualized/SensorsAnalyticsSDK+Visualized.h"; sourceTree = "<group>"; };
+		EA12FDA5286686CF01E961F315269A44 /* SARemoteConfigInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigInterceptor.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigInterceptor.h; sourceTree = "<group>"; };
+		EA480C4AD028CAA6E48AA88E09DC7BCF /* SAVisualizedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVisualizedMessage.h; path = TestLixiaokai/Classes/Visualized/SAVisualizedMessage.h; sourceTree = "<group>"; };
+		EAF2DEB936974B9ABAA891BF2EF15E9C /* SensorsAnalyticsSDK+SAAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+SAAutoTrack.h"; path = "TestLixiaokai/Classes/AutoTrack/SensorsAnalyticsSDK+SAAutoTrack.h"; sourceTree = "<group>"; };
+		EB1A43C6BFCAC9F93CFAD6C646EAA23E /* SAAppLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppLifecycle.m; path = TestLixiaokai/Classes/Core/SAAppLifecycle.m; sourceTree = "<group>"; };
+		EC1574592CEE13107858FF05E4808EC6 /* SARSAPluginEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARSAPluginEncryptor.m; path = TestLixiaokai/Classes/Encrypt/SARSAPluginEncryptor.m; sourceTree = "<group>"; };
+		EC8B6B594086BBFFD954F84F7C8832A9 /* TestLixiaokai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.release.xcconfig; sourceTree = "<group>"; };
+		ED70073C7A7DAACEB1DA74FE82F25C22 /* SADeepLinkProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeepLinkProcessor.h; path = TestLixiaokai/Classes/Deeplink/SADeepLinkProcessor.h; sourceTree = "<group>"; };
+		F036F179677456A393FA6A57D800AD4C /* SAAlgorithmProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAlgorithmProtocol.m; path = TestLixiaokai/Classes/Encrypt/SAAlgorithmProtocol.m; sourceTree = "<group>"; };
+		F0C8063844739D7C503F3D7217CA3055 /* SARemoteConfigEventObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARemoteConfigEventObject.m; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigEventObject.m; sourceTree = "<group>"; };
+		F0EFAC39C5529E1DA73F6C6972323EFE /* SAECCPluginEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAECCPluginEncryptor.h; path = TestLixiaokai/Classes/Encrypt/SAECCPluginEncryptor.h; sourceTree = "<group>"; };
+		F1015396787174EBBA4FEAA250190D04 /* SAStorePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAStorePlugin.h; path = TestLixiaokai/Classes/Store/SAStorePlugin.h; sourceTree = "<group>"; };
+		F23537E6C713E8DCC998ED6C4BA49FF7 /* SAAppPushManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppPushManager.m; path = TestLixiaokai/Classes/AppPush/SAAppPushManager.m; sourceTree = "<group>"; };
+		F2C60BBEB8F1AA88934D2B8C49FB297E /* SAValueTransformers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAValueTransformers.m; path = TestLixiaokai/Classes/Visualized/SAValueTransformers.m; sourceTree = "<group>"; };
+		F2F354D1FC4E7AFE763FB5CDC2A07DD1 /* SAAESEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAESEncryptor.h; path = TestLixiaokai/Classes/Encrypt/SAAESEncryptor.h; sourceTree = "<group>"; };
+		F37B3772CFB2A831256316BC49BDB035 /* SAExceptionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAExceptionManager.m; path = TestLixiaokai/Classes/Exception/SAExceptionManager.m; sourceTree = "<group>"; };
+		F3F072BA47F9EADF7818039EEFA9B71F /* SAFileStorePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAFileStorePlugin.m; path = TestLixiaokai/Classes/Store/SAFileStorePlugin.m; sourceTree = "<group>"; };
+		F49D4CD24251286E6B7F381C98CA842D /* SAExceptionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAExceptionManager.h; path = TestLixiaokai/Classes/Exception/SAExceptionManager.h; sourceTree = "<group>"; };
+		F4FAB9996360E85333FFD00870D88523 /* SensorsAnalyticsSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SensorsAnalyticsSDK.bundle; path = TestLixiaokai/Classes/SensorsAnalyticsSDK.bundle; sourceTree = "<group>"; };
+		F910C45F61E1039A4B31A9361B3CAB88 /* SAApplicationStateSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAApplicationStateSerializer.m; path = TestLixiaokai/Classes/Visualized/SAApplicationStateSerializer.m; sourceTree = "<group>"; };
+		FA5E2FC65C12974F1FECB6BF84CC40E3 /* SAUNUserNotificationCenterDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUNUserNotificationCenterDelegateProxy.h; path = TestLixiaokai/Classes/AppPush/SAUNUserNotificationCenterDelegateProxy.h; sourceTree = "<group>"; };
+		FABBD9C7F444AF341768FCE0B1B793E4 /* SASecretKeyFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASecretKeyFactory.m; path = TestLixiaokai/Classes/Encrypt/SASecretKeyFactory.m; sourceTree = "<group>"; };
 		FB24AF20271E3B6E1D6AC48DEC76C0C0 /* Pods_TestLixiaokai_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestLixiaokai_Example.framework; path = "Pods-TestLixiaokai_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD37FC2A37D4C2B4EBFEB8A54C0DABF /* SensorsAnalyticsSDK+DeviceOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+DeviceOrientation.h"; path = "TestLixiaokai/Classes/DeviceOrientation/SensorsAnalyticsSDK+DeviceOrientation.h"; sourceTree = "<group>"; };
+		FD01319796944D065B7C1E1A12A0E468 /* SARemoteConfigOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARemoteConfigOperator.h; path = TestLixiaokai/Classes/RemoteConfig/SARemoteConfigOperator.h; sourceTree = "<group>"; };
+		FE8EC901A2FA42361E7CEA66FB0009C6 /* UNUserNotificationCenter+SAPushClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UNUserNotificationCenter+SAPushClick.h"; path = "TestLixiaokai/Classes/AppPush/UNUserNotificationCenter+SAPushClick.h"; sourceTree = "<group>"; };
+		FF052BB1ED82E8D82B7EE01684A0816C /* SADeeplinkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeeplinkManager.m; path = TestLixiaokai/Classes/Deeplink/SADeeplinkManager.m; sourceTree = "<group>"; };
+		FF7A2EFAFDED44B5408379811AD320FF /* SANotificationUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SANotificationUtil.h; path = TestLixiaokai/Classes/AppPush/SANotificationUtil.h; sourceTree = "<group>"; };
+		FFB027093ED778DF80924F9055C45B21 /* SASwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASwizzle.h; path = TestLixiaokai/Classes/Core/SASwizzle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		35521E7457666D6B3F258DDD3A3968BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA0CDB2A7D4DCFF0D2F8C09C41800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A4C080FB86222E65337897437C736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		606932EE8F753DBA587469845EB541BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8ACA21D2E0005D31F60CF215DA391978 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EE22DD03A411797A9389C27571FDB5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47A7211E966665F6277633F5D6BCD37E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,25 +525,201 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01CD2A4673E5A3DB267A46B2A738A54C /* TestLixiaokai */ = {
+		02AA315A26D558BDEE7438C8BD8E6F08 /* TestA */ = {
 			isa = PBXGroup;
 			children = (
-				90622532062EE72035D17292049828A4 /* TestA.h */,
-				9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */,
-				8EA93CE3058ECD56945AE87BB96457C9 /* Pod */,
-				F14B5D749A10E38782E187CFB9DC769E /* Support Files */,
-				A159B5716A33D26F9A8B0D73BBBEE36A /* TestA */,
+				46D5F19CA66BAA4927C2173C8C244E9A /* TestA.h */,
+				889E2DDC46FB46871BE8D8CF89A9502F /* TestA.m */,
+			);
+			name = TestA;
+			sourceTree = "<group>";
+		};
+		07D493A42A3E384F1B060C1871AB98A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				241A516865D3515BEBE44738A35634B3 /* TestLixiaokai */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1AF1FA417B448CE37F25E346E294022D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				796575290F6FFE43DA2D14BB8FE1F6D7 /* ResourceBundle-SensorsAnalyticsSDK-TestLixiaokai-Info.plist */,
+				B2D31751930E5DB85C857857CD3E59B9 /* TestLixiaokai.modulemap */,
+				C15D57391B4E85DA1642ECE292D714C8 /* TestLixiaokai-dummy.m */,
+				131EBCEE7AFBDD03DC7BE148996E7B99 /* TestLixiaokai-Info.plist */,
+				D8EF8354D2E547CB0CCD2DE9B5C8D365 /* TestLixiaokai-prefix.pch */,
+				AA99E7F697476689E48E6544B7E44715 /* TestLixiaokai-umbrella.h */,
+				209B554CDF8C4AD807074DCF4C8F00ED /* TestLixiaokai.debug.xcconfig */,
+				EC8B6B594086BBFFD954F84F7C8832A9 /* TestLixiaokai.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestLixiaokai";
+			sourceTree = "<group>";
+		};
+		21053C76C0BC72BF9D8F61F1187FDF01 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6F1E16A02037D959E1C195090802D /* SensorsAnalyticsSDK+WKWebView.h */,
+				9C2CE393043D289917CB8352F03FEC0B /* SensorsAnalyticsSDK+WKWebView.m */,
+			);
+			name = WKWebView;
+			sourceTree = "<group>";
+		};
+		241A516865D3515BEBE44738A35634B3 /* TestLixiaokai */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC8CAB87E75D62D1D1A1B10AA25268 /* AppExtension */,
+				5AD1B80C405E054D6F5BCC5A2B0D5E5A /* AppPush */,
+				60BF11408B1E1333EFEE4C0DA17CB6A7 /* AutoTrack */,
+				664CB14C2E4D64B376AA08C9EBA2C578 /* ChannelMatch */,
+				7B1C109CAF68052E5CE9481C0756952D /* Core */,
+				AC06F7F68ACB400AB821E789D82782D9 /* DebugMode */,
+				E4376D8D1433112F84252913887A6E6C /* Deeplink */,
+				8F8BFAC2386FCA56333B1538EC95CCDB /* DeviceOrientation */,
+				4AD524E9E1C4577F8BD7FA48FC08F624 /* Encrypt */,
+				721BEF08B596ECA777940C1FCBBA421E /* Exception */,
+				C90A6EE838452DC7D6B33DE86760742D /* JSBridge */,
+				A847D3F468B67C526CA74E9ED9B3B8C9 /* Location */,
+				62C805E02BD1389B9011D8AAABE01F70 /* Pod */,
+				8619F52B621EF51A4F71D4C9D081061C /* RemoteConfig */,
+				531B59ED3A212C9D78771B9C934128DF /* Resources */,
+				F08EA057BD3F0D98B54F832B68F7EFFA /* Store */,
+				1AF1FA417B448CE37F25E346E294022D /* Support Files */,
+				02AA315A26D558BDEE7438C8BD8E6F08 /* TestA */,
+				4455B737987571B73D3EC0B041C6BA23 /* Visualized */,
+				4EB515578B549204680A6C2710706821 /* WebView */,
+				21053C76C0BC72BF9D8F61F1187FDF01 /* WKWebView */,
 			);
 			name = TestLixiaokai;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		1557F9E2E566C30D1DC617198EFD6198 /* Development Pods */ = {
+		4455B737987571B73D3EC0B041C6BA23 /* Visualized */ = {
 			isa = PBXGroup;
 			children = (
-				01CD2A4673E5A3DB267A46B2A738A54C /* TestLixiaokai */,
+				CBEF8D68804DE4046C95DF0E75E53B7A /* NSInvocation+SAHelpers.h */,
+				4BDA59E51FA731D411ACFDDEBE7912C8 /* NSInvocation+SAHelpers.m */,
+				DD9045C59E83166BAF41721306D67226 /* SAApplicationStateSerializer.h */,
+				F910C45F61E1039A4B31A9361B3CAB88 /* SAApplicationStateSerializer.m */,
+				BD55A077FD6E3CC3C2D684670652A7C2 /* SAClassDescription.h */,
+				D91D229F67DA40DCE2E3A87108A9CB0F /* SAClassDescription.m */,
+				DCB4BAD4F2BE30FD256726FD07C185CC /* SAEnumDescription.h */,
+				C95C6D74A09E800D047EC6DC9262D9EA /* SAEnumDescription.m */,
+				96A9E86AD78C8D9D0822FE67563BDBD5 /* SAObjectIdentityProvider.h */,
+				26FE4C63DECADA582A36B5B865F62944 /* SAObjectIdentityProvider.m */,
+				9EF1D3360FCD206C71A7C1743DEA0428 /* SAObjectSerializerConfig.h */,
+				E10AF1A2DECBF9E0EDEEB52821D9D0C9 /* SAObjectSerializerConfig.m */,
+				116203BACF1B7E1E97C92A17240CB561 /* SAObjectSerializerContext.h */,
+				0ECBAFB76E30806168AFB1618D530AD9 /* SAObjectSerializerContext.m */,
+				80A99EFA1DDAB3475B8FB17F9D71640E /* SAPropertyDescription.h */,
+				93D324F09BB846356D9F966CEEBA71E9 /* SAPropertyDescription.m */,
+				D7A390FA87ECED0ECC450AB8BAAC07AE /* SATypeDescription.h */,
+				90D9D4D16F35CD68E8B72E7E7D4372D4 /* SATypeDescription.m */,
+				C768395C8296986FA8604E7800603445 /* SAValueTransformers.h */,
+				F2C60BBEB8F1AA88934D2B8C49FB297E /* SAValueTransformers.m */,
+				4653FB2DDB4542994404E95850F9D516 /* SAVisualizedAbstractMessage.h */,
+				70C96C3DEB04D6834E5280172C3EAC09 /* SAVisualizedAbstractMessage.m */,
+				18D7D9679BB1D200395DB33727AFE4E9 /* SAVisualizedAutoTrackObjectSerializer.h */,
+				24EC802BB81F4BE2932DC71AD0FC6276 /* SAVisualizedAutoTrackObjectSerializer.m */,
+				48F2F09062D9AC675A2317F03A434392 /* SAVisualizedConnection.h */,
+				3196D7A1EA65BF91A8322D4D62273841 /* SAVisualizedConnection.m */,
+				2557C50FFFBA322788AEF19C66B786E4 /* SAVisualizedManager.h */,
+				42BCB26E754D7D8C7C6891AC1B6BD302 /* SAVisualizedManager.m */,
+				EA480C4AD028CAA6E48AA88E09DC7BCF /* SAVisualizedMessage.h */,
+				56142F43B6139857B27967C3CA41C307 /* SAVisualizedObjectSerializerManager.h */,
+				C78357A3D2EE2DB56620B1B6DC141A9E /* SAVisualizedObjectSerializerManager.m */,
+				93FC847E3B8532C1520704E4F8F8C6B6 /* SAVisualizedSnapshotMessage.h */,
+				DD0723F53A0D1B1FAE9E645DBAFAAB16 /* SAVisualizedSnapshotMessage.m */,
+				933AAF8C1B93CCD86EC1ADC90D356751 /* SAVisualizedUtils.h */,
+				AADBD7A4A9FBC00ADED12B3A455E61A0 /* SAVisualizedUtils.m */,
+				E9BAE9455CC709FA8BC1DA87E6201666 /* SensorsAnalyticsSDK+Visualized.h */,
+				3FD5822F77D02CE8FCEF9043B63A4F7A /* SensorsAnalyticsSDK+Visualized.m */,
 			);
-			name = "Development Pods";
+			name = Visualized;
+			sourceTree = "<group>";
+		};
+		4AD524E9E1C4577F8BD7FA48FC08F624 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				F2F354D1FC4E7AFE763FB5CDC2A07DD1 /* SAAESEncryptor.h */,
+				76383AA834EBD538623FF23E7455636F /* SAAESEncryptor.m */,
+				4C6FEF0D128F7E1A7363FA13664E3448 /* SAAlgorithmProtocol.h */,
+				F036F179677456A393FA6A57D800AD4C /* SAAlgorithmProtocol.m */,
+				B0F2A77DB7F808B34DBAADA4185522D6 /* SAConfigOptions+Encrypt.h */,
+				27DB9891257EB2D07CB4E1C810344142 /* SAConfigOptions+Encrypt.m */,
+				A0C2EE78DC820DD70BB19107C78C21DD /* SAECCEncryptor.h */,
+				C4D691BC218960C03DC33438DB7B90AF /* SAECCEncryptor.m */,
+				F0EFAC39C5529E1DA73F6C6972323EFE /* SAECCPluginEncryptor.h */,
+				CBD50BAA57F336F1D25B5D8FFF9A74B4 /* SAECCPluginEncryptor.m */,
+				C257E22227A0304C2EE3417080D108E8 /* SAEncryptInterceptor.h */,
+				12481404A0C2E2F5649A71457A3FDAAF /* SAEncryptInterceptor.m */,
+				ABD6D88FB412953728151802A92EC4DA /* SAEncryptManager.h */,
+				2D028FFF56475785D0D89DC4235D1ECA /* SAEncryptManager.m */,
+				DCE5D7265915E04CE40C74B77B998C33 /* SAEncryptProtocol.h */,
+				9B750F9C46CA3DE269BEB8D9918C9343 /* SARSAEncryptor.h */,
+				55135FEA010D8EEB65B8FC6D300757A8 /* SARSAEncryptor.m */,
+				E3B8773E01AC7A130AB5482CE7D7E3A4 /* SARSAPluginEncryptor.h */,
+				EC1574592CEE13107858FF05E4808EC6 /* SARSAPluginEncryptor.m */,
+				60704A78E19A642F1499DB9DF35D045A /* SASecretKey.h */,
+				BF78CC1A3D74FD36E6A6F873D5BDEF2D /* SASecretKey.m */,
+				E6437A11BD6CB7117D13BE7FBD2BC488 /* SASecretKeyFactory.h */,
+				FABBD9C7F444AF341768FCE0B1B793E4 /* SASecretKeyFactory.m */,
+			);
+			name = Encrypt;
+			sourceTree = "<group>";
+		};
+		4EB515578B549204680A6C2710706821 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD225909A49D9349273889A62F3879 /* SAVisualizedAutoTrackObjectSerializer+WebView.h */,
+				AD50ADD9C7D0C30F55A0816E33EBE02F /* SAVisualizedAutoTrackObjectSerializer+WebView.m */,
+				915EA0E479A74041BF0B1802EAEB8C85 /* SensorsAnalyticsSDK+WebView.h */,
+				111A90479BD15ED297947BCA7DC6FD28 /* SensorsAnalyticsSDK+WebView.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		531B59ED3A212C9D78771B9C934128DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4FAB9996360E85333FFD00870D88523 /* SensorsAnalyticsSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5AD1B80C405E054D6F5BCC5A2B0D5E5A /* AppPush */ = {
+			isa = PBXGroup;
+			children = (
+				73A1676D8087DEAE0BF128BDF27D1996 /* SAApplicationDelegateProxy.h */,
+				1BA47A02F8512DC12F5C74E21B52AE71 /* SAApplicationDelegateProxy.m */,
+				1BC4828FB22B65103A128774F2050CC7 /* SAAppPushConstants.h */,
+				9E1A7186720C64C0B23EBB57A1CFBB49 /* SAAppPushConstants.m */,
+				965505D0FDB2D5A3C91681B471763F68 /* SAAppPushManager.h */,
+				F23537E6C713E8DCC998ED6C4BA49FF7 /* SAAppPushManager.m */,
+				5EEC29D9F83875D57A4C987796B029DD /* SAConfigOptions+AppPush.h */,
+				FF7A2EFAFDED44B5408379811AD320FF /* SANotificationUtil.h */,
+				3C5614989320FCEE6ED0932AB2A3166D /* SANotificationUtil.m */,
+				FA5E2FC65C12974F1FECB6BF84CC40E3 /* SAUNUserNotificationCenterDelegateProxy.h */,
+				C5C838F8AFE1A8C7A288F3FF0E7F2D90 /* SAUNUserNotificationCenterDelegateProxy.m */,
+				95EF1CAC25208F43E7288404EBE50413 /* UIApplication+SAPushClick.h */,
+				13F6972F26B1ECBEEE9A9DD017BD34B5 /* UIApplication+SAPushClick.m */,
+				FE8EC901A2FA42361E7CEA66FB0009C6 /* UNUserNotificationCenter+SAPushClick.h */,
+				4426ECD3822BB5CE5324BFCA2E3DBF3C /* UNUserNotificationCenter+SAPushClick.m */,
+			);
+			name = AppPush;
+			sourceTree = "<group>";
+		};
+		5E95C9B3C190901A1F33E4FEE8EF5604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB24AF20271E3B6E1D6AC48DEC76C0C0 /* Pods_TestLixiaokai_Example.framework */,
+				BB89DE5BD1423BCC7094423C70DE85A1 /* Pods_TestLixiaokai_Tests.framework */,
+				C167FD2BF31DF6019FF3A52DCE472AB5 /* SensorsAnalyticsSDK.bundle */,
+				702E7C0E2CC98678121BB0B4C2E063EE /* TestLixiaokai.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5EF07B651F465865BC32963DAEB2F57D /* Pods-TestLixiaokai_Example */ = {
@@ -140,14 +739,114 @@
 			path = "Target Support Files/Pods-TestLixiaokai_Example";
 			sourceTree = "<group>";
 		};
-		712A893651C90B1F36837FBC88475BD0 /* Products */ = {
+		60BF11408B1E1333EFEE4C0DA17CB6A7 /* AutoTrack */ = {
 			isa = PBXGroup;
 			children = (
-				FB24AF20271E3B6E1D6AC48DEC76C0C0 /* Pods_TestLixiaokai_Example.framework */,
-				BB89DE5BD1423BCC7094423C70DE85A1 /* Pods_TestLixiaokai_Tests.framework */,
-				702E7C0E2CC98678121BB0B4C2E063EE /* TestLixiaokai.framework */,
+				5A0E78ACF3BE38C98674376ACC455E22 /* SAAppTracker.h */,
+				3E8AE84293D95B1300FE6C8177848796 /* SAAppTracker.m */,
+				A772CDD980CBBE4BFA921F92A7343EBB /* SAAutoTrackManager.h */,
+				49C47C382F230136EB312B9E210D1790 /* SAAutoTrackManager.m */,
+				3548114D64BEEDD2909A485AD73212BB /* SAAutoTrackProperty.h */,
+				72FA112D1EDA9845864A6D7822F5212F /* SAAutoTrackUtils.h */,
+				E8FAD0F2CE4A91784C9E93EA3F3CB4E3 /* SAAutoTrackUtils.m */,
+				EAF2DEB936974B9ABAA891BF2EF15E9C /* SensorsAnalyticsSDK+SAAutoTrack.h */,
+				0EDF6DBC78740F181B243C190474E723 /* SensorsAnalyticsSDK+SAAutoTrack.m */,
 			);
-			name = Products;
+			name = AutoTrack;
+			sourceTree = "<group>";
+		};
+		62C805E02BD1389B9011D8AAABE01F70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				99247580414C99D0189BDAFBC7BEF2C0 /* LICENSE */,
+				BF1F71B7DCE6C4B4C883E12DB236C480 /* README.md */,
+				E3359B43BB269EE4432F5CB68B7D09AC /* TestLixiaokai.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		664CB14C2E4D64B376AA08C9EBA2C578 /* ChannelMatch */ = {
+			isa = PBXGroup;
+			children = (
+				71006B33365855385DB312B530B2FB51 /* SAChannelInfoPropertyPlugin.h */,
+				BFCEA9B2FD64021F4AA69D490FB71970 /* SAChannelInfoPropertyPlugin.m */,
+				024C1C07D601B77D38168DD2AEFDD40E /* SAChannelMatchManager.h */,
+				1F571204422E2FFB6E1953C9D1DF7C0F /* SAChannelMatchManager.m */,
+				A2D86A2CA7C59D28C200AC1DD45225CE /* SensorsAnalyticsSDK+SAChannelMatch.h */,
+				CC939A643F710BA54393380A8431BB56 /* SensorsAnalyticsSDK+SAChannelMatch.m */,
+			);
+			name = ChannelMatch;
+			sourceTree = "<group>";
+		};
+		721BEF08B596ECA777940C1FCBBA421E /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9F4FE553AE030D790E4839AFB9875 /* SAConfigOptions+Exception.h */,
+				F49D4CD24251286E6B7F381C98CA842D /* SAExceptionManager.h */,
+				F37B3772CFB2A831256316BC49BDB035 /* SAExceptionManager.m */,
+			);
+			name = Exception;
+			sourceTree = "<group>";
+		};
+		7B1C109CAF68052E5CE9481C0756952D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				295E812ED38A41F005B6DB9B060FFABE /* NSString+SAHashCode.h */,
+				7D38EE2256EFF98E17F59A2C1D7D1DC1 /* NSString+SAHashCode.m */,
+				E47CB90FCFA2D9083140946E79BB30C3 /* SAAlertController.h */,
+				1DF74BCEEE0FA66FB896025CAB5A060A /* SAAlertController.m */,
+				138D0D6BA4DD5C1A069C4DE9A480F7EC /* SAApplication.h */,
+				1C1985CE5D8F98C7B30F9C4217BC4F69 /* SAApplication.m */,
+				1D707A5D63B2C4DD9CA800F1F1011E07 /* SAAppLifecycle.h */,
+				EB1A43C6BFCAC9F93CFAD6C646EAA23E /* SAAppLifecycle.m */,
+				3F3D875336675947056BF0913ECD17A4 /* SAConfigOptions.h */,
+				47A9F7809F0FBB4F0F1BC30F2B942DE2 /* SAConfigOptions.m */,
+				973BC4F95E8C205B5B4033115BA4436A /* SAConstants.h */,
+				165AC843401D2715CDC6512A17A9E93C /* SAConstants.m */,
+				1A31620F09A926AAB647F333DF94BF01 /* SAConstants+Private.h */,
+				784436A6AF1503F3940AF790DCD5E90E /* SAHTTPSession.h */,
+				6DEE314366FF86AF3F2D8D521B253231 /* SAHTTPSession.m */,
+				9F4AEAA37437104899DC0B6EF66CB9CB /* SAKeyChainItemWrapper.h */,
+				8F462B278AB0975E4927D797FDA1762B /* SAKeyChainItemWrapper.m */,
+				B3C741C3026646B8BCA2F032A238F8CD /* SAModuleManager.h */,
+				E24E8CF521AE7334C1B18664ECF26D5B /* SAModuleManager.m */,
+				B78A3FE929F008637A85BE117757144D /* SAModuleProtocol.h */,
+				3B668170F44401129C8EF23981866BFE /* SAObject+SAConfigOptions.h */,
+				8B0DF1529BC31DB6F5F9ED212BE861F7 /* SAObject+SAConfigOptions.m */,
+				7B0347C8BB0D1DC613C0CCD904CA19FB /* SASecurityPolicy.h */,
+				D92FE6B6725623175E6024D231F14306 /* SASecurityPolicy.m */,
+				832A38675635EE5EF4F4290A791C3CCC /* SAStoreManager.h */,
+				53017A6A3A7F00D8795898DB3139235A /* SAStoreManager.m */,
+				FFB027093ED778DF80924F9055C45B21 /* SASwizzle.h */,
+				9D67A3BBEA2C8B11C3A3AD2A60FE1018 /* SASwizzle.m */,
+				BCF0B6CF395A680D801B07A220941E65 /* SensorsAnalyticsSDK.h */,
+				165F89BC17238E90791BC6C5EB473FA1 /* SensorsAnalyticsSDK.m */,
+				4C8279BC85BBB8A2D370EBA1AB998E96 /* SensorsAnalyticsSDK+Private.h */,
+				B24501EFB778D91C25514568B25FE3BE /* SensorsAnalyticsSDK+Public.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8619F52B621EF51A4F71D4C9D081061C /* RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				42500A31044A16B73151950AC08E921F /* SAConfigOptions+RemoteConfig.h */,
+				6C5FE4C0643D9D34C05C351D31B8FB58 /* SARemoteConfigCheckOperator.h */,
+				8ED311F40AA46A8B41B0D65C28730EF9 /* SARemoteConfigCheckOperator.m */,
+				0247FA8893A6F91E9C4DD99FC60F8C34 /* SARemoteConfigCommonOperator.h */,
+				5A7A76C973000B3DAC96F42F9950908F /* SARemoteConfigCommonOperator.m */,
+				74C9579F93E50DD5961F4B47208F8485 /* SARemoteConfigEventObject.h */,
+				F0C8063844739D7C503F3D7217CA3055 /* SARemoteConfigEventObject.m */,
+				EA12FDA5286686CF01E961F315269A44 /* SARemoteConfigInterceptor.h */,
+				BF246A25EC44C9BD9413DF7C227A79A7 /* SARemoteConfigInterceptor.m */,
+				CC1C57CE9D9B8BC7ADD22A38D0D64A25 /* SARemoteConfigManager.h */,
+				1881374B1CAC025EA6AEA8EA8CEF8E58 /* SARemoteConfigManager.m */,
+				58F02933F7D9668E99B8680954000727 /* SARemoteConfigModel.h */,
+				C9B990E74DBAF4E8A9B6104E477355AD /* SARemoteConfigModel.m */,
+				FD01319796944D065B7C1E1A12A0E468 /* SARemoteConfigOperator.h */,
+				A8F15803EDB25E7A5630F4D2ADB8C322 /* SARemoteConfigOperator.m */,
+			);
+			name = RemoteConfig;
 			sourceTree = "<group>";
 		};
 		880A4C087BBBF833393761214D974231 /* Targets Support Files */ = {
@@ -159,14 +858,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8EA93CE3058ECD56945AE87BB96457C9 /* Pod */ = {
+		8F8BFAC2386FCA56333B1538EC95CCDB /* DeviceOrientation */ = {
 			isa = PBXGroup;
 			children = (
-				899B6FE6BAC7C4140B83A4E0894A49CE /* LICENSE */,
-				96EA48BA7522E680C9D155C2A1CF14A7 /* README.md */,
-				0961EEA666230FA258FB55223E5C1DA5 /* TestLixiaokai.podspec */,
+				DA4D5809683DEFE8280A7645E2741F94 /* SADeviceOrientationManager.h */,
+				41A41FE004AE206090B55D542CEA167D /* SADeviceOrientationManager.m */,
+				FCD37FC2A37D4C2B4EBFEB8A54C0DABF /* SensorsAnalyticsSDK+DeviceOrientation.h */,
+				42821706EC8A1470873F6F4BA91EEB1B /* SensorsAnalyticsSDK+DeviceOrientation.m */,
 			);
-			name = Pod;
+			name = DeviceOrientation;
 			sourceTree = "<group>";
 		};
 		96AE745B79C8CC1CF6F844C53697E967 /* Pods-TestLixiaokai_Tests */ = {
@@ -185,11 +885,26 @@
 			path = "Target Support Files/Pods-TestLixiaokai_Tests";
 			sourceTree = "<group>";
 		};
-		A159B5716A33D26F9A8B0D73BBBEE36A /* TestA */ = {
+		A847D3F468B67C526CA74E9ED9B3B8C9 /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				4A5FFE94B9C89B2C810FC67063075F69 /* SALocationManager.h */,
+				1E681AD5836F6C43382A7E4BE19D686C /* SALocationManager.m */,
+				623EC2C632A4E5437F4D486D65672626 /* SensorsAnalyticsSDK+Location.h */,
+				4427ADF21C872BCF725E62A08E6ABD1C /* SensorsAnalyticsSDK+Location.m */,
 			);
-			name = TestA;
+			name = Location;
+			sourceTree = "<group>";
+		};
+		AC06F7F68ACB400AB821E789D82782D9 /* DebugMode */ = {
+			isa = PBXGroup;
+			children = (
+				4955851B9FE029AB9F08607454E9F461 /* SADebugModeManager.h */,
+				A565C720B441641934DBB3770A8ADBC7 /* SADebugModeManager.m */,
+				B45E5458CF013E43726FEBF856D92C3C /* SensorsAnalyticsSDK+DebugMode.h */,
+				38AE016E15AF9A498F96B123F7877582 /* SensorsAnalyticsSDK+DebugMode.m */,
+			);
+			name = DebugMode;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -200,15 +915,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C90A6EE838452DC7D6B33DE86760742D /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				350BEA18A33BDDC0B405374E88737A72 /* SAJavaScriptBridgeManager.h */,
+				05A36612F9BBD23F99EEB89E61CA1C26 /* SAJavaScriptBridgeManager.m */,
+				1B2B4D54CCF676351265270666EF9E07 /* SensorsAnalyticsSDK+JavaScriptBridge.h */,
+				70BDD45DE866FD8FC8654D2D03E5EAAD /* WKWebView+SABridge.h */,
+				CDBCA4D5AAA2EB41E2CCD048AE4A7D95 /* WKWebView+SABridge.m */,
+			);
+			name = JSBridge;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1557F9E2E566C30D1DC617198EFD6198 /* Development Pods */,
+				07D493A42A3E384F1B060C1871AB98A4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				712A893651C90B1F36837FBC88475BD0 /* Products */,
+				5E95C9B3C190901A1F33E4FEE8EF5604 /* Products */,
 				880A4C087BBBF833393761214D974231 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CFEC8CAB87E75D62D1D1A1B10AA25268 /* AppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				053356DCFE244A5867B036B76CDB50E0 /* SAAppExtensionDataManager.h */,
+				868B5786E2C3997EB96588A2E7ED4FB1 /* SAAppExtensionDataManager.m */,
+				54E6C0FF9C21E489965575AC414BE3F9 /* SensorsAnalyticsSDK+SAAppExtension.h */,
+				37F1794A93198C71265C773C3F71FAAC /* SensorsAnalyticsSDK+SAAppExtension.m */,
+			);
+			name = AppExtension;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -219,33 +957,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F14B5D749A10E38782E187CFB9DC769E /* Support Files */ = {
+		E4376D8D1433112F84252913887A6E6C /* Deeplink */ = {
 			isa = PBXGroup;
 			children = (
-				2520A36B88FFF473BF0BC6CD08E39CF2 /* TestLixiaokai.modulemap */,
-				33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */,
-				D545DD75F3189BB4EF7F3233C5C74750 /* TestLixiaokai-Info.plist */,
-				0A8E7A601AE243BE510B1CC0E3B7CB3D /* TestLixiaokai-prefix.pch */,
-				D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */,
-				B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */,
-				D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */,
+				CF3D2771C626EBD6F6B04C00613D952C /* SADeepLinkConstants.h */,
+				8E408CE0D3D117A82BDED92D2F647D71 /* SADeepLinkConstants.m */,
+				77EE3C412934EBD3451DCCBEB3DEC70B /* SADeepLinkEventProcessor.h */,
+				A46EB8886AC6149401FACCD5DE4D7865 /* SADeepLinkEventProcessor.m */,
+				E578522AA4A82947DDEEC7F387ED3F7B /* SADeeplinkManager.h */,
+				FF052BB1ED82E8D82B7EE01684A0816C /* SADeeplinkManager.m */,
+				ED70073C7A7DAACEB1DA74FE82F25C22 /* SADeepLinkProcessor.h */,
+				55AD5ECD8E86EBA165C47D751218FF9D /* SADeepLinkProcessor.m */,
+				AD18CC978152E318A646123D697633BB /* SADeferredDeepLinkProcessor.h */,
+				BE1658F8C27A126180972FA633FBCD69 /* SADeferredDeepLinkProcessor.m */,
+				2BDBA635202FD2E707A576C68C27487E /* SADeviceWhiteList.h */,
+				94E8FAC7EBB163BAF11EC1F89F21886F /* SADeviceWhiteList.m */,
+				201A805A34546A1034F3A26A9567D130 /* SALatestUtmPropertyPlugin.h */,
+				0E18736D2DAFB3AAD0E2911C05F56580 /* SALatestUtmPropertyPlugin.m */,
+				2F6AC227AAAF3111C6A13D2D1ACD9E92 /* SAQueryDeepLinkProcessor.h */,
+				0F197BFE5697E91D44D458352207A6FB /* SAQueryDeepLinkProcessor.m */,
+				9A32EE0026D826E290566D3C709F117A /* SARequestDeepLinkProcessor.h */,
+				56BDD30CF8FC91365F9AC59C3C6D39CC /* SARequestDeepLinkProcessor.m */,
+				8AB1B296C31D265A626DC5B6518F3EDB /* SASlinkCreator.h */,
+				B191184E88B6D46791C5B26D918F41E7 /* SASlinkCreator.m */,
+				2E80A72DB28022BBED567C2DFA24D8D7 /* SAUserAgent.h */,
+				8ED831AAE44793FDAA9ED1E573C4EA4C /* SAUserAgent.m */,
+				6F51940627B303B7C0258E2E8C0B7C2F /* SensorsAnalyticsSDK+Deeplink.h */,
+				75E412D56F58321D9A523985E174EE64 /* SensorsAnalyticsSDK+Deeplink.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestLixiaokai";
+			name = Deeplink;
+			sourceTree = "<group>";
+		};
+		F08EA057BD3F0D98B54F832B68F7EFFA /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B79E3C316DCDCDDB74544A0D973FEEBD /* SAAESCrypt.h */,
+				3C00947DF23DAD0F605DA6505DE06089 /* SAAESCrypt.m */,
+				A90BE1FD8F1BD5550EC5052E67C1428C /* SAAESStorePlugin.h */,
+				D283424AA8A0B6063A9FCFD351DB9080 /* SAAESStorePlugin.m */,
+				D6A05C019E8A7043BAF3F3D7D9DCA9B5 /* SABaseStoreManager.h */,
+				3BE60E9F9F8283E255F84FA53135E3C6 /* SABaseStoreManager.m */,
+				705D377D31E01F10FD1CBB95AE4F8C52 /* SAFileStorePlugin.h */,
+				F3F072BA47F9EADF7818039EEFA9B71F /* SAFileStorePlugin.m */,
+				F1015396787174EBBA4FEAA250190D04 /* SAStorePlugin.h */,
+				0F73CB0D382A05BD1E445CEBCDB0AC4E /* SAUserDefaultsStorePlugin.h */,
+				11355186C2E6C67AD9AA9FB331F3A4DC /* SAUserDefaultsStorePlugin.m */,
+			);
+			name = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29E2981442EC2319FE1BD1EBC963E0F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D06D41B3FB3463F7414011F69B9F5B1 /* TestA.h in Headers */,
-				ECFA0C91E4334FA62DF5DD679151612B /* TestLixiaokai-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97487EBFE61BC754B448B561EB3D15E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,21 +1025,138 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB19E1C897804186D983646435C5FD9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82E90E9DC640263268DAB1426774AE /* NSInvocation+SAHelpers.h in Headers */,
+				428139786E7BE494B2BB95A84C8D6CA0 /* NSString+SAHashCode.h in Headers */,
+				FFD13DB315F8E30F394D216C4147929D /* SAAESCrypt.h in Headers */,
+				1E9A1CB0BB2E517ACECC7A410A6CDB2F /* SAAESEncryptor.h in Headers */,
+				FDF92EAA984D360B766AC72BA8F2CF3D /* SAAESStorePlugin.h in Headers */,
+				00B599DD5168DCE44E37EF886A97E375 /* SAAlertController.h in Headers */,
+				5B11FCC6A62EA356AB8A1FD53012A81C /* SAAlgorithmProtocol.h in Headers */,
+				26AFDAC4615D924D837F7376811601C4 /* SAAppExtensionDataManager.h in Headers */,
+				CCF77D8688737421E205AFBAD403D161 /* SAApplication.h in Headers */,
+				BAAE1C4A361893521AD50A5729F95B1C /* SAApplicationDelegateProxy.h in Headers */,
+				27EFE2ACDA504424F626EA4D60356ED3 /* SAApplicationStateSerializer.h in Headers */,
+				D582520F6CBB90894350642CB6C189CE /* SAAppLifecycle.h in Headers */,
+				39D371D5923B26DE787C09BBCD22F79E /* SAAppPushConstants.h in Headers */,
+				613DF8FCFF70F5BB948D095D40D23665 /* SAAppPushManager.h in Headers */,
+				019798C01C6C7EAB885952C6C36CF6BC /* SAAppTracker.h in Headers */,
+				C08D4E740A06FE690D41FF95E1D78C8A /* SAAutoTrackManager.h in Headers */,
+				D2C64DBB87BB9028677DC8AE497F7F7D /* SAAutoTrackProperty.h in Headers */,
+				EA19150838A04EB13A70D89E3816AE2E /* SAAutoTrackUtils.h in Headers */,
+				E5D7A8B26E87103C9A37291C0C0C4341 /* SABaseStoreManager.h in Headers */,
+				4EE1E33B3459839B6EBDD265D9DC2FA8 /* SAChannelInfoPropertyPlugin.h in Headers */,
+				DD32146A83315FBDA90F8BE97972F068 /* SAChannelMatchManager.h in Headers */,
+				4642EAEDEC717880FC87538E235F2C3F /* SAClassDescription.h in Headers */,
+				7E8DA0422A9549EC639DC2E8770BED74 /* SAConfigOptions+AppPush.h in Headers */,
+				1AA1DDE288A4306B1FC6BFAE1FA509A1 /* SAConfigOptions+Encrypt.h in Headers */,
+				0130A301F79A7CE4D36CECC45D5F34A8 /* SAConfigOptions+Exception.h in Headers */,
+				6A0615C3AA5C6665F73DFFDEBB7C4286 /* SAConfigOptions+RemoteConfig.h in Headers */,
+				D7DDFEEB0B57A336598C1126498716D4 /* SAConfigOptions.h in Headers */,
+				DE3351C02EDFBEC16969136EE5D9D9B3 /* SAConstants+Private.h in Headers */,
+				1DDBED614BF45BD9E6F2AA2C27B68352 /* SAConstants.h in Headers */,
+				40F002A1F14E9054389D40FBC826493D /* SADebugModeManager.h in Headers */,
+				089242F661CBB1B1426C76AA5141ECFE /* SADeepLinkConstants.h in Headers */,
+				C00633B774AB6D3042F8C6BB3A620BF7 /* SADeepLinkEventProcessor.h in Headers */,
+				D598EE29D4A23028F3AE556570454B3F /* SADeeplinkManager.h in Headers */,
+				BE976F5679F7F25F6A04C103565DD8A0 /* SADeepLinkProcessor.h in Headers */,
+				AAAB32D45AB009BD19EE134D5C567F63 /* SADeferredDeepLinkProcessor.h in Headers */,
+				5192B3D3175F9EE4CE7F75FD989E8E47 /* SADeviceOrientationManager.h in Headers */,
+				F65390553FF7D3E21CC6BE411B1E747D /* SADeviceWhiteList.h in Headers */,
+				7517DF090E3BD5DAFD71750637350027 /* SAECCEncryptor.h in Headers */,
+				6AB959A1BC1CD2E6269AE59EC4A33EA9 /* SAECCPluginEncryptor.h in Headers */,
+				C19460B034E9F53BDC458517C058DF49 /* SAEncryptInterceptor.h in Headers */,
+				0655856723CE85160184D90A89FC6D56 /* SAEncryptManager.h in Headers */,
+				C34257BDA09AE65472CEA1FA3535CA89 /* SAEncryptProtocol.h in Headers */,
+				C0894D3B5EEC7918B552576C021F71D8 /* SAEnumDescription.h in Headers */,
+				770213CA0D17E1DE946384666710B175 /* SAExceptionManager.h in Headers */,
+				82830871DA7DDD51710D355B7287D838 /* SAFileStorePlugin.h in Headers */,
+				C41168687AF680F772993816331C5FA9 /* SAHTTPSession.h in Headers */,
+				52446F19A24A76CC205D3C9B052F00D4 /* SAJavaScriptBridgeManager.h in Headers */,
+				BD07E321A886347758E72446F7B07EE3 /* SAKeyChainItemWrapper.h in Headers */,
+				BF5E47F84885AF2C4BCEDCFAC8D2B227 /* SALatestUtmPropertyPlugin.h in Headers */,
+				CE33C2BA8AF0270A635356524C885463 /* SALocationManager.h in Headers */,
+				6C367443F11B4CBA3FE1EE79A7F88A76 /* SAModuleManager.h in Headers */,
+				93D2CB2663A677E6B6AEBC58044F5A1E /* SAModuleProtocol.h in Headers */,
+				7C85D1308E8F7B651D64F0F8B2EF537F /* SANotificationUtil.h in Headers */,
+				4960AC5426800C719BAB5DEB5652957E /* SAObject+SAConfigOptions.h in Headers */,
+				92D2D3E32D24FAB35E8A191002BBF23F /* SAObjectIdentityProvider.h in Headers */,
+				89B29BA460A63B11B54741A8533DB986 /* SAObjectSerializerConfig.h in Headers */,
+				6BDDCDD556C8DD74877238060F3E43EE /* SAObjectSerializerContext.h in Headers */,
+				108A2A6A56C154E39D45A824E21B8715 /* SAPropertyDescription.h in Headers */,
+				3EFEB6AE072B18B4C921727E88A78161 /* SAQueryDeepLinkProcessor.h in Headers */,
+				38AE91F0D208DA1C822C9B05C3D87E58 /* SARemoteConfigCheckOperator.h in Headers */,
+				E1F0781CF877CB7E7766C4444B24CE65 /* SARemoteConfigCommonOperator.h in Headers */,
+				3B74DDE4F2EC15C26A086F4D0D521994 /* SARemoteConfigEventObject.h in Headers */,
+				D6DAC301CD3C6F286B50A58792BAB41C /* SARemoteConfigInterceptor.h in Headers */,
+				E6135E2409DDEAF56C0002F667978ADD /* SARemoteConfigManager.h in Headers */,
+				7036E8734E01725374E32E00B7DC6972 /* SARemoteConfigModel.h in Headers */,
+				D441730C4B61B4A61D6FA4524D058985 /* SARemoteConfigOperator.h in Headers */,
+				72FF75C03157F31095E5899063E23746 /* SARequestDeepLinkProcessor.h in Headers */,
+				8C955019181ACCA38B9DE3F80A2E623D /* SARSAEncryptor.h in Headers */,
+				7F01CBC96FC2703A2CCEF941A570E3BF /* SARSAPluginEncryptor.h in Headers */,
+				AC2E953013F9504DBBC86D93790B074C /* SASecretKey.h in Headers */,
+				D1AC8D3C3D511A3C0067D7EFC9A7D1C7 /* SASecretKeyFactory.h in Headers */,
+				95909A6BA193DCDAD5F285F132AA8BE2 /* SASecurityPolicy.h in Headers */,
+				AA644F0843032E043CDB886E9BBA65BD /* SASlinkCreator.h in Headers */,
+				70FC807F8DF51C0F779F8C25F887C3F5 /* SAStoreManager.h in Headers */,
+				780D8F04E465BCFF3737B93017E89E0B /* SAStorePlugin.h in Headers */,
+				5E42084AAC7B5CD3287544D35E6116A7 /* SASwizzle.h in Headers */,
+				590C1EABB4B3778AF85E098791021AF5 /* SATypeDescription.h in Headers */,
+				DA314BBB96F4B32322D973C45329DC4D /* SAUNUserNotificationCenterDelegateProxy.h in Headers */,
+				6C6BD8845276C57074CD15DF36E24B9B /* SAUserAgent.h in Headers */,
+				E313C942BE0339BDE0FE2E7BFF577C85 /* SAUserDefaultsStorePlugin.h in Headers */,
+				2DF3384EFEE16E6C2AD30BE4CAE71749 /* SAValueTransformers.h in Headers */,
+				159C66A676307D81590960FE2F950CEF /* SAVisualizedAbstractMessage.h in Headers */,
+				433024586C8CFCF0290D75B9BDD3A82B /* SAVisualizedAutoTrackObjectSerializer+WebView.h in Headers */,
+				5872193DA5239C6F5A5A3D1084BBCC6E /* SAVisualizedAutoTrackObjectSerializer.h in Headers */,
+				5B23B889511C2A4BEB3925C287C35479 /* SAVisualizedConnection.h in Headers */,
+				303B524E8B739A1A5C28A2A4D0503916 /* SAVisualizedManager.h in Headers */,
+				3821188405B5D50869CE1F3A56998745 /* SAVisualizedMessage.h in Headers */,
+				4F96D6EDEAFF00B22AECED695EE0F03A /* SAVisualizedObjectSerializerManager.h in Headers */,
+				66C0C7FC416A2D61E8D824F47DB3354E /* SAVisualizedSnapshotMessage.h in Headers */,
+				3F2E3313D8C16CBE0FC39433D594C592 /* SAVisualizedUtils.h in Headers */,
+				37FF9BA8E234CE99C9906F57136F7910 /* SensorsAnalyticsSDK+DebugMode.h in Headers */,
+				43F947F51A91DDB399CE619963E1CE79 /* SensorsAnalyticsSDK+Deeplink.h in Headers */,
+				9C8BF1729F3FBF81D83E042A58FBC0DD /* SensorsAnalyticsSDK+DeviceOrientation.h in Headers */,
+				2831F1E4CA293DFBC80890BC3DA725D8 /* SensorsAnalyticsSDK+JavaScriptBridge.h in Headers */,
+				3A1748E9951FAE48831F65AE773000F4 /* SensorsAnalyticsSDK+Location.h in Headers */,
+				47B4AF47B0D83082AC9B34ED5507AA05 /* SensorsAnalyticsSDK+Private.h in Headers */,
+				7B26A2B43080C070561F03F8A22932C2 /* SensorsAnalyticsSDK+Public.h in Headers */,
+				81FBD6B554D69433B8DF42894F4D71AF /* SensorsAnalyticsSDK+SAAppExtension.h in Headers */,
+				BC9BB67072953C7EFE01FD2B51C3DEFF /* SensorsAnalyticsSDK+SAAutoTrack.h in Headers */,
+				E1FC9610B01C4CB1FA47297059C52832 /* SensorsAnalyticsSDK+SAChannelMatch.h in Headers */,
+				52580F7FA1399EE3E77B1B851FCA150A /* SensorsAnalyticsSDK+Visualized.h in Headers */,
+				C6240F1E9EA511DD19C33FF2182934F8 /* SensorsAnalyticsSDK+WebView.h in Headers */,
+				56867FE003C77226CF815FFCCF83EE3B /* SensorsAnalyticsSDK+WKWebView.h in Headers */,
+				280C659933CC16E2DBA28ED97A10FDF8 /* SensorsAnalyticsSDK.h in Headers */,
+				7684836C6C87AF6B50DA24BD15FDE39C /* TestA.h in Headers */,
+				EAEBFF9D08EC7B14B64B010989B71C84 /* TestLixiaokai-umbrella.h in Headers */,
+				A41E6DAE978AC35D9D074A801169E7EA /* UIApplication+SAPushClick.h in Headers */,
+				276308E82AED198CFA585B911EAA9193 /* UNUserNotificationCenter+SAPushClick.h in Headers */,
+				5CB0002298501B437C201F4E04440048 /* WKWebView+SABridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		55169B91370EA2F79073BE82D4A07A6E /* TestLixiaokai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B57F81969236C27906BA7147074DEE5C /* Build configuration list for PBXNativeTarget "TestLixiaokai" */;
+			buildConfigurationList = 7FA29F41031CD963AB2380854F192EC9 /* Build configuration list for PBXNativeTarget "TestLixiaokai" */;
 			buildPhases = (
-				29E2981442EC2319FE1BD1EBC963E0F8 /* Headers */,
-				D2295A407DCB97EDEFB7A80C892CB5D0 /* Sources */,
-				6EE22DD03A411797A9389C27571FDB5C /* Frameworks */,
-				EB25C57D24049DC8120CE226B5280B67 /* Resources */,
+				EB19E1C897804186D983646435C5FD9D /* Headers */,
+				09F96ABDE6F066F4B82EDA20BB098BA7 /* Sources */,
+				3ACA0CDB2A7D4DCFF0D2F8C09C41800F /* Frameworks */,
+				0581A798E377E86CCFBD3BE0E841D4DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E030541899975D7D495B0CB5DB9A31D3 /* PBXTargetDependency */,
 			);
 			name = TestLixiaokai;
 			productName = TestLixiaokai;
@@ -321,6 +1201,23 @@
 			productReference = FB24AF20271E3B6E1D6AC48DEC76C0C0 /* Pods_TestLixiaokai_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A7D3492E48C50AD18B222DAFE7BC4DFD /* TestLixiaokai-SensorsAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5E37B05F5C9F5B186B6F8D40A09B5C /* Build configuration list for PBXNativeTarget "TestLixiaokai-SensorsAnalyticsSDK" */;
+			buildPhases = (
+				29F6780280C2CA81D0A62DE134B3BEC6 /* Sources */,
+				35521E7457666D6B3F258DDD3A3968BE /* Frameworks */,
+				63A6606B21F07108D030D9DFF100CAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestLixiaokai-SensorsAnalyticsSDK";
+			productName = "TestLixiaokai-SensorsAnalyticsSDK";
+			productReference = C167FD2BF31DF6019FF3A52DCE472AB5 /* SensorsAnalyticsSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,18 +1236,35 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 712A893651C90B1F36837FBC88475BD0 /* Products */;
+			productRefGroup = 5E95C9B3C190901A1F33E4FEE8EF5604 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A01F18450C4E31B94A8A9C4BC95B4D85 /* Pods-TestLixiaokai_Example */,
 				7EEB66F90D30DC4104A5BF5C8D2CE33D /* Pods-TestLixiaokai_Tests */,
 				55169B91370EA2F79073BE82D4A07A6E /* TestLixiaokai */,
+				A7D3492E48C50AD18B222DAFE7BC4DFD /* TestLixiaokai-SensorsAnalyticsSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0581A798E377E86CCFBD3BE0E841D4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B0F0676AE3F21790224EA4C6F11EEF /* SensorsAnalyticsSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A6606B21F07108D030D9DFF100CAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FBE97E2695DEC5AF671D80E414ABF90 /* SensorsAnalyticsSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6781D83A18F65BC161284369FCBBBEDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,30 +1279,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB25C57D24049DC8120CE226B5280B67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F96ABDE6F066F4B82EDA20BB098BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1684295B5F6B6BF994F937CDEA07A2 /* NSInvocation+SAHelpers.m in Sources */,
+				830C2849049AE050625B193F3535958D /* NSString+SAHashCode.m in Sources */,
+				364FE9DD4F7CAE6763CE1AFE935E7FF9 /* SAAESCrypt.m in Sources */,
+				9C1E913DA12E9B18EFA2EA03AB84527A /* SAAESEncryptor.m in Sources */,
+				FAD91106E1DF6D00E1A4558700DA5E96 /* SAAESStorePlugin.m in Sources */,
+				1C662D1D9B2FF5E1C7E49B184120A81D /* SAAlertController.m in Sources */,
+				46CDD57D2E344A3319027532C60153AE /* SAAlgorithmProtocol.m in Sources */,
+				E745F7A9E3B6C68CE33937F5B41B5611 /* SAAppExtensionDataManager.m in Sources */,
+				2FEEF4F4F8DE0A953AF28E934D8885B3 /* SAApplication.m in Sources */,
+				040542FC02247E934A8248A716C22CD7 /* SAApplicationDelegateProxy.m in Sources */,
+				200FC011922C90338F75523582995684 /* SAApplicationStateSerializer.m in Sources */,
+				0E90112E434681819BEB8551722413EF /* SAAppLifecycle.m in Sources */,
+				E0E29D0105270EA0A3D5F3ADA050050B /* SAAppPushConstants.m in Sources */,
+				944B26A934CAE8544EBC27F83B56C163 /* SAAppPushManager.m in Sources */,
+				E946E091CD965F5B7C2464067F55FF82 /* SAAppTracker.m in Sources */,
+				3164393193CBC294240D6FB7887772DD /* SAAutoTrackManager.m in Sources */,
+				88A4AE1F0E2F3DBF97D21282A5302A9C /* SAAutoTrackUtils.m in Sources */,
+				C8F7D9E46C2151D5A5B1184337A3BC03 /* SABaseStoreManager.m in Sources */,
+				D4761FC6D9D35AF439F162DBB1011A8E /* SAChannelInfoPropertyPlugin.m in Sources */,
+				56D7647393F47C82A1841FBBDB8E409E /* SAChannelMatchManager.m in Sources */,
+				E5CAADFE4316E75F2D219193D379A48C /* SAClassDescription.m in Sources */,
+				1133A540A8D8F4299A4CB725AC3C5F27 /* SAConfigOptions+Encrypt.m in Sources */,
+				4672737DE75841985BE0B59036546913 /* SAConfigOptions.m in Sources */,
+				5F1AC37356674754709D0E56D38C67C8 /* SAConstants.m in Sources */,
+				D73CED1EBFD47EC1619CD711D73FE498 /* SADebugModeManager.m in Sources */,
+				B75733B71C9F8E090AAD9EF19FE687FF /* SADeepLinkConstants.m in Sources */,
+				1D66567E4DF0AB71C649BA5A483369A6 /* SADeepLinkEventProcessor.m in Sources */,
+				D36B34F076B558688E46BC048F83A31A /* SADeeplinkManager.m in Sources */,
+				064AAF40346620891381F61EB5C395DC /* SADeepLinkProcessor.m in Sources */,
+				016D91F59EBF5E62157646C5D2EBCB76 /* SADeferredDeepLinkProcessor.m in Sources */,
+				9F428654E89D0830E1ADD7EC53AB0AE7 /* SADeviceOrientationManager.m in Sources */,
+				31A452E077195D1700D969F44451F5EE /* SADeviceWhiteList.m in Sources */,
+				E962853CFE8F06AB308BDE2606E26D25 /* SAECCEncryptor.m in Sources */,
+				91A19A488F16915DD715E7B36A7AC92E /* SAECCPluginEncryptor.m in Sources */,
+				A1E7CDD5AD81DA64497B155414218D49 /* SAEncryptInterceptor.m in Sources */,
+				FECCB644C0E8AE68C2131EFFB2EEAF9E /* SAEncryptManager.m in Sources */,
+				A0D894791946CC1D16FF9A7A5209DCC8 /* SAEnumDescription.m in Sources */,
+				F36DA25EF077BC6AEEB5D955C229EAEC /* SAExceptionManager.m in Sources */,
+				242C223C2F526F8251BB8AC27F9C7B2F /* SAFileStorePlugin.m in Sources */,
+				12E7F3C55F8FF378FC4931342A9DAD91 /* SAHTTPSession.m in Sources */,
+				1C4DFD08742864DA137082ED13A6756F /* SAJavaScriptBridgeManager.m in Sources */,
+				3706BDDEC227DEF6785E92362277E38C /* SAKeyChainItemWrapper.m in Sources */,
+				32DED0281E96924BD0B4CF77301ED6A2 /* SALatestUtmPropertyPlugin.m in Sources */,
+				F0B2D3D814375CBFFC2A41AF150421D5 /* SALocationManager.m in Sources */,
+				AE2CAE4A8AAEBAD0B2F19D4D7C87C6E1 /* SAModuleManager.m in Sources */,
+				7D4326527F67C3252D6AF165802FC7AC /* SANotificationUtil.m in Sources */,
+				126A1C8923E658C95CDE8DA2C16DF294 /* SAObject+SAConfigOptions.m in Sources */,
+				2F5B0FB40E7FDF066D68E22789FC51D4 /* SAObjectIdentityProvider.m in Sources */,
+				EDF0B6D2B9224A8434EA81A191C217CD /* SAObjectSerializerConfig.m in Sources */,
+				08DAEE58225A5DCEC600A0431E42036B /* SAObjectSerializerContext.m in Sources */,
+				8D9B736E9EB2CECB2F42B55FB2A59446 /* SAPropertyDescription.m in Sources */,
+				1358780BDA2BD641A501BE200A2EAEC0 /* SAQueryDeepLinkProcessor.m in Sources */,
+				521916AFDDB116A21D2B2C3DC5196611 /* SARemoteConfigCheckOperator.m in Sources */,
+				4D32F46715D029874681CA2AD9EAB7D4 /* SARemoteConfigCommonOperator.m in Sources */,
+				6523746459B2AE8461499C9CBF94133B /* SARemoteConfigEventObject.m in Sources */,
+				0BCD920F5E22B356B874AE961B975EFA /* SARemoteConfigInterceptor.m in Sources */,
+				508446485F2AC0CA05455431B1CF656E /* SARemoteConfigManager.m in Sources */,
+				BEB278FE73371B43A4F99410F07D21D7 /* SARemoteConfigModel.m in Sources */,
+				DEEFA1A1D4119CEA7BEA86A37A92EA98 /* SARemoteConfigOperator.m in Sources */,
+				F0EE9234296A59937B34B56057AE732E /* SARequestDeepLinkProcessor.m in Sources */,
+				7BE067E69C918DC745727DD30ED93E23 /* SARSAEncryptor.m in Sources */,
+				B837390EF1DE37594CA21F9CEA31BF9F /* SARSAPluginEncryptor.m in Sources */,
+				9506CD15A7DF08906F4670588BC30946 /* SASecretKey.m in Sources */,
+				E5997188212703513AA3A25D0CC38FC9 /* SASecretKeyFactory.m in Sources */,
+				6ED6228E87B2F07F8360657AC1118366 /* SASecurityPolicy.m in Sources */,
+				6DD1771570BD8797C02173B7A89F9D4A /* SASlinkCreator.m in Sources */,
+				F973AD6D7DF6CF7995790E0F607C339A /* SAStoreManager.m in Sources */,
+				32231642267D72D2DA195E14F1ADF9CD /* SASwizzle.m in Sources */,
+				B9168BFEDB4411AAD2155AA3C5B61E5F /* SATypeDescription.m in Sources */,
+				F6A100AC32245D154CA09C27E49495EB /* SAUNUserNotificationCenterDelegateProxy.m in Sources */,
+				FE2F7F7ABC31B4AD5253070FA87DB943 /* SAUserAgent.m in Sources */,
+				092B2AFC6210FFBB22F89694D18BD10B /* SAUserDefaultsStorePlugin.m in Sources */,
+				C5F805DAB5FCB8373E2CE9AEF2C49F62 /* SAValueTransformers.m in Sources */,
+				2E0291B1F071B68C356DF59BF783AFE9 /* SAVisualizedAbstractMessage.m in Sources */,
+				DA012584BDDBB3E69DA996F6D324CD5E /* SAVisualizedAutoTrackObjectSerializer+WebView.m in Sources */,
+				A164347511AC7966FEA80C1FF4D43475 /* SAVisualizedAutoTrackObjectSerializer.m in Sources */,
+				9577B5653DEA14B65BCCA869A3A6F537 /* SAVisualizedConnection.m in Sources */,
+				1ABF0B596B2F2F2FE50791DDDDDEA8B9 /* SAVisualizedManager.m in Sources */,
+				26D644ACC5D087A47114C13D47453BC9 /* SAVisualizedObjectSerializerManager.m in Sources */,
+				E52B18066B3F4B19808D4A5D43BA17C1 /* SAVisualizedSnapshotMessage.m in Sources */,
+				8C1652D5F20EB3B14CBDD18489A495AB /* SAVisualizedUtils.m in Sources */,
+				68DCD30245A68A08A35581AD683FFEFC /* SensorsAnalyticsSDK+DebugMode.m in Sources */,
+				946E0B89CB66F5A5F13C20A13DEF3EAA /* SensorsAnalyticsSDK+Deeplink.m in Sources */,
+				8BC878DE7E01EA10B204C6D214C85BE2 /* SensorsAnalyticsSDK+DeviceOrientation.m in Sources */,
+				265806041915EBCBC1780DC8523BDA32 /* SensorsAnalyticsSDK+Location.m in Sources */,
+				4B7B4C8E5AE665775C3945B3F97E6B67 /* SensorsAnalyticsSDK+SAAppExtension.m in Sources */,
+				CDAEAC8C64DA56630DD554B40E175E0D /* SensorsAnalyticsSDK+SAAutoTrack.m in Sources */,
+				49239EBD0F0B27E0884D4CAB8008C17F /* SensorsAnalyticsSDK+SAChannelMatch.m in Sources */,
+				F3D6279E7CF047A35B3795B44E46A754 /* SensorsAnalyticsSDK+Visualized.m in Sources */,
+				0E0308C6C1B2E7C718997BA9A47503BC /* SensorsAnalyticsSDK+WebView.m in Sources */,
+				D78018A74E901E8AAC13062BD191329A /* SensorsAnalyticsSDK+WKWebView.m in Sources */,
+				11A97C90BCAE7FCD56E3856D21275172 /* SensorsAnalyticsSDK.m in Sources */,
+				061A7A7F66669B5AFA3867C1BBA57333 /* TestA.m in Sources */,
+				E9A8AF17D44D620C482B6B6F05F557E7 /* TestLixiaokai-dummy.m in Sources */,
+				6E23C3816F45C94BEA5FAACC4B50AEDF /* UIApplication+SAPushClick.m in Sources */,
+				143C4CFF2260EE9278F8D290F7FED765 /* UNUserNotificationCenter+SAPushClick.m in Sources */,
+				441D3417BF57EEBFE0C1D2BD4B042B86 /* WKWebView+SABridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F6780280C2CA81D0A62DE134B3BEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		42C5C7D5FEE66BEA8CD313293E003520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				286E9D1BF3F6941B7B5FD892897D5A11 /* Pods-TestLixiaokai_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2295A407DCB97EDEFB7A80C892CB5D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F467B029BDC7C3DA85C6C29E06959CAD /* TestA.m in Sources */,
-				D750D9937BA7940C3160CBB9BBE6483D /* TestLixiaokai-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +1424,48 @@
 			target = A01F18450C4E31B94A8A9C4BC95B4D85 /* Pods-TestLixiaokai_Example */;
 			targetProxy = A0C945C8BBED819D09A3F73488BF0FEA /* PBXContainerItemProxy */;
 		};
+		E030541899975D7D495B0CB5DB9A31D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TestLixiaokai-SensorsAnalyticsSDK";
+			target = A7D3492E48C50AD18B222DAFE7BC4DFD /* TestLixiaokai-SensorsAnalyticsSDK */;
+			targetProxy = 595BFF92EE33C8A210A56EE4335E7702 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C6C9AFA8D4FC903CA3D3A1C92DBB9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8B6B594086BBFFD954F84F7C8832A9 /* TestLixiaokai.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestLixiaokai/TestLixiaokai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai.modulemap";
+				PRODUCT_MODULE_NAME = TestLixiaokai;
+				PRODUCT_NAME = TestLixiaokai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,36 +1530,37 @@
 			};
 			name = Debug;
 		};
-		44CC8092E689C5559BCECAC656B27D3F /* Release */ = {
+		529C5D361AEC72CFCF4C71CFB4BD73A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */;
+			baseConfigurationReference = 209B554CDF8C4AD807074DCF4C8F00ED /* TestLixiaokai.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestLixiaokai/TestLixiaokai-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestLixiaokai";
+				IBSC_MODULE = TestLixiaokai;
+				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/ResourceBundle-SensorsAnalyticsSDK-TestLixiaokai-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai.modulemap";
-				PRODUCT_MODULE_NAME = TestLixiaokai;
-				PRODUCT_NAME = TestLixiaokai;
+				PRODUCT_NAME = SensorsAnalyticsSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		53C3B0DAA26628C381B037DB35EB23EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8B6B594086BBFFD954F84F7C8832A9 /* TestLixiaokai.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestLixiaokai";
+				IBSC_MODULE = TestLixiaokai;
+				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/ResourceBundle-SensorsAnalyticsSDK-TestLixiaokai-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SensorsAnalyticsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -578,6 +1627,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F6E9DC6BED0CE4D50FD4AC9DED866F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209B554CDF8C4AD807074DCF4C8F00ED /* TestLixiaokai.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestLixiaokai/TestLixiaokai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai.modulemap";
+				PRODUCT_MODULE_NAME = TestLixiaokai;
+				PRODUCT_NAME = TestLixiaokai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -679,38 +1760,6 @@
 			};
 			name = Release;
 		};
-		D5404CEF8618BC77BB520A6568E4280E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestLixiaokai/TestLixiaokai-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestLixiaokai/TestLixiaokai.modulemap";
-				PRODUCT_MODULE_NAME = TestLixiaokai;
-				PRODUCT_NAME = TestLixiaokai;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FF9A5BD01455903A7818098E6FD4A3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEB12DE7AA3D70956318AE21ABF0091D /* Pods-TestLixiaokai_Tests.debug.xcconfig */;
@@ -766,11 +1815,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B57F81969236C27906BA7147074DEE5C /* Build configuration list for PBXNativeTarget "TestLixiaokai" */ = {
+		7FA29F41031CD963AB2380854F192EC9 /* Build configuration list for PBXNativeTarget "TestLixiaokai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5404CEF8618BC77BB520A6568E4280E /* Debug */,
-				44CC8092E689C5559BCECAC656B27D3F /* Release */,
+				9F6E9DC6BED0CE4D50FD4AC9DED866F0 /* Debug */,
+				0C6C9AFA8D4FC903CA3D3A1C92DBB9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5E37B05F5C9F5B186B6F8D40A09B5C /* Build configuration list for PBXNativeTarget "TestLixiaokai-SensorsAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529C5D361AEC72CFCF4C71CFB4BD73A1 /* Debug */,
+				53C3B0DAA26628C381B037DB35EB23EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
