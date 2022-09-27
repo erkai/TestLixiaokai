@@ -1,0 +1,16 @@
+PODS:
+  - TestLixiaokai (0.1.0)
+
+DEPENDENCIES:
+  - TestLixiaokai (from `../`)
+
+EXTERNAL SOURCES:
+  TestLixiaokai:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestLixiaokai: a8e83da12a40c107a5ecc50be10bb1101ccf4524
+
+PODFILE CHECKSUM: 231dbf3914d42a069941eae170ff9ba2c5e518ea
+
+COCOAPODS: 1.9.3
