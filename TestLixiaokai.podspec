@@ -28,7 +28,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TestLixiaokai/Classes/**/*'
+#  s.source_files = 'TestLixiaokai/Classes/**/*'
+  
+  s.subspec 'TestA' do |ss|
+       ss.source_files = 'TestLixiaokai/Classes/TestA/'
+  end
   
   # s.resource_bundles = {
   #   'TestLixiaokai' => ['TestLixiaokai/Assets/*.png']

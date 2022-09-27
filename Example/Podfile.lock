@@ -1,5 +1,7 @@
 PODS:
-  - TestLixiaokai (0.1.0)
+  - TestLixiaokai (0.1.0):
+    - TestLixiaokai/TestA (= 0.1.0)
+  - TestLixiaokai/TestA (0.1.0)
 
 DEPENDENCIES:
   - TestLixiaokai (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestLixiaokai: a8e83da12a40c107a5ecc50be10bb1101ccf4524
+  TestLixiaokai: c2e6bda8b904c9ffc5d11af13956283ccdee9bb1
 
 PODFILE CHECKSUM: 231dbf3914d42a069941eae170ff9ba2c5e518ea
 

@@ -2,7 +2,7 @@
   "name": "TestLixiaokai",
   "version": "0.1.0",
   "summary": "A short description of TestLixiaokai.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "测试的项目",
   "homepage": "https://github.com/erkai/TestLixiaokai",
   "license": {
     "type": "MIT",
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TestLixiaokai/Classes/**/*"
+  "source_files": "TestLixiaokai/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "TestA",
+      "source_files": "TestLixiaokai/Classes/TestA/"
+    }
+  ]
 }

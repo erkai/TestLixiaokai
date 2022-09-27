@@ -10,13 +10,14 @@
 		082FB015F38495FE4DDEC33E0D373CAF /* Pods-TestLixiaokai_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0716977F76059318BAAEB1B9BD99404 /* Pods-TestLixiaokai_Tests-dummy.m */; };
 		1903D487BAEFE2AD2E74D7D1A886F166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		286E9D1BF3F6941B7B5FD892897D5A11 /* Pods-TestLixiaokai_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A5DCF7121E4DD9239280FE3470AB0 /* Pods-TestLixiaokai_Example-dummy.m */; };
-		3F038FEA70551672CEBDC59B417AB580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		47A7211E966665F6277633F5D6BCD37E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4B0A50F05D48BFD7CD848E0A897ACF5E /* Pods-TestLixiaokai_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3F88E87EF2F4B48DE6A09CFD2FEFFF /* Pods-TestLixiaokai_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D2CB4B4D4406414DC5B7DE484B34CD7 /* TestLixiaokai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73E5C33D9C81900307F7E575C83D8DB /* TestLixiaokai-dummy.m */; };
+		6D06D41B3FB3463F7414011F69B9F5B1 /* TestA.h in Headers */ = {isa = PBXBuildFile; fileRef = 90622532062EE72035D17292049828A4 /* TestA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80A3EBABCFC26161F93B1A15D41B0A03 /* Pods-TestLixiaokai_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75C39A8D80B42BA1C6C363C3AD097C /* Pods-TestLixiaokai_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ACA21D2E0005D31F60CF215DA391978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C7DCCCBEB3691D8CC0868A6046C74E77 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E08EB01F7183C419CF3D360A88D089 /* ReplaceMe.m */; };
-		E58CD24F9CD3EE297BD73EB162D7E4D1 /* TestLixiaokai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E80DB59ECDCECBD17E9C54A584820486 /* TestLixiaokai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D750D9937BA7940C3160CBB9BBE6483D /* TestLixiaokai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */; };
+		ECFA0C91E4334FA62DF5DD679151612B /* TestLixiaokai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F467B029BDC7C3DA85C6C29E06959CAD /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D36EB287D0CA223916599D7069383B /* TestLixiaokai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.debug.xcconfig; sourceTree = "<group>"; };
+		0961EEA666230FA258FB55223E5C1DA5 /* TestLixiaokai.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestLixiaokai.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A8E7A601AE243BE510B1CC0E3B7CB3D /* TestLixiaokai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-prefix.pch"; sourceTree = "<group>"; };
 		0AA93BFF6C630D174FDFD1C995920655 /* Pods-TestLixiaokai_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Example-Info.plist"; sourceTree = "<group>"; };
-		0D06589598BFF411CF449EA08EB87A3C /* TestLixiaokai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestLixiaokai.modulemap; sourceTree = "<group>"; };
-		0ECAA998DFCA133DEC00B7ACD8258EDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		13110C9962A66D04BDCFA65AEB987F23 /* Pods-TestLixiaokai_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		244BF60CE615685CB8AC40891C5A98D9 /* Pods-TestLixiaokai_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		25E08EB01F7183C419CF3D360A88D089 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestLixiaokai/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2520A36B88FFF473BF0BC6CD08E39CF2 /* TestLixiaokai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestLixiaokai.modulemap; sourceTree = "<group>"; };
 		3140FDCF6FA8455C5A3CA9DF5DC12DF4 /* Pods-TestLixiaokai_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLixiaokai_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestLixiaokai-dummy.m"; sourceTree = "<group>"; };
 		47279598A7FCBB65A9935AC7EED3CAF0 /* Pods-TestLixiaokai_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6132C6C613A7CD61B2767516C52C52C7 /* Pods-TestLixiaokai_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLixiaokai_Tests-Info.plist"; sourceTree = "<group>"; };
 		702E7C0E2CC98678121BB0B4C2E063EE /* TestLixiaokai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestLixiaokai.framework; path = TestLixiaokai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7416073A3B7FDA06A78BFF4937F957FB /* Pods-TestLixiaokai_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLixiaokai_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81BCB742AAD7309335A6EAA9B880F8B4 /* Pods-TestLixiaokai_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestLixiaokai_Tests.modulemap"; sourceTree = "<group>"; };
 		823A5DCF7121E4DD9239280FE3470AB0 /* Pods-TestLixiaokai_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLixiaokai_Example-dummy.m"; sourceTree = "<group>"; };
-		840207C514BD5A16E78F8EF8AC07C86B /* TestLixiaokai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.release.xcconfig; sourceTree = "<group>"; };
+		899B6FE6BAC7C4140B83A4E0894A49CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		89BAB1F30CE91ABE2C2CFBB183C43153 /* Pods-TestLixiaokai_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLixiaokai_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8C3F88E87EF2F4B48DE6A09CFD2FEFFF /* Pods-TestLixiaokai_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLixiaokai_Example-umbrella.h"; sourceTree = "<group>"; };
+		90622532062EE72035D17292049828A4 /* TestA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.h; path = TestLixiaokai/Classes/TestA/TestA.h; sourceTree = "<group>"; };
+		96EA48BA7522E680C9D155C2A1CF14A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestA.m; path = TestLixiaokai/Classes/TestA/TestA.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC75C39A8D80B42BA1C6C363C3AD097C /* Pods-TestLixiaokai_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLixiaokai_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.debug.xcconfig; sourceTree = "<group>"; };
 		BB89DE5BD1423BCC7094423C70DE85A1 /* Pods_TestLixiaokai_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestLixiaokai_Tests.framework; path = "Pods-TestLixiaokai_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8C80CF5384486A753B5CF97223092 /* Pods-TestLixiaokai_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestLixiaokai_Example.modulemap"; sourceTree = "<group>"; };
 		C9A172C7A7C8CB9EF8279225416273CB /* Pods-TestLixiaokai_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEB12DE7AA3D70956318AE21ABF0091D /* Pods-TestLixiaokai_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0716977F76059318BAAEB1B9BD99404 /* Pods-TestLixiaokai_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLixiaokai_Tests-dummy.m"; sourceTree = "<group>"; };
-		D38B0F7C597691909DC2B6A2F6F13EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D73E5C33D9C81900307F7E575C83D8DB /* TestLixiaokai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestLixiaokai-dummy.m"; sourceTree = "<group>"; };
+		D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-umbrella.h"; sourceTree = "<group>"; };
+		D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestLixiaokai.release.xcconfig; sourceTree = "<group>"; };
+		D545DD75F3189BB4EF7F3233C5C74750 /* TestLixiaokai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestLixiaokai-Info.plist"; sourceTree = "<group>"; };
 		DD186A69AB5946886170DB8008ED4964 /* Pods-TestLixiaokai_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLixiaokai_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3717F014A5B0E97B037FBCB403F531D /* TestLixiaokai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestLixiaokai-Info.plist"; sourceTree = "<group>"; };
-		E80DB59ECDCECBD17E9C54A584820486 /* TestLixiaokai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-umbrella.h"; sourceTree = "<group>"; };
-		EFD8EA36C104DB7AFBDC63D8560767EB /* TestLixiaokai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestLixiaokai-prefix.pch"; sourceTree = "<group>"; };
-		F6FB6A2E03F145B292C5B36A6C532B79 /* TestLixiaokai.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestLixiaokai.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB24AF20271E3B6E1D6AC48DEC76C0C0 /* Pods_TestLixiaokai_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestLixiaokai_Example.framework; path = "Pods-TestLixiaokai_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B77ADD612BD0234CA159F8198FFF4A62 /* Frameworks */ = {
+		6EE22DD03A411797A9389C27571FDB5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F038FEA70551672CEBDC59B417AB580 /* Foundation.framework in Frameworks */,
+				47A7211E966665F6277633F5D6BCD37E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,40 +102,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06F17DBDAD50BBF9E458F919AF05DA5B /* Pod */ = {
+		01CD2A4673E5A3DB267A46B2A738A54C /* TestLixiaokai */ = {
 			isa = PBXGroup;
 			children = (
-				D38B0F7C597691909DC2B6A2F6F13EE1 /* LICENSE */,
-				0ECAA998DFCA133DEC00B7ACD8258EDF /* README.md */,
-				F6FB6A2E03F145B292C5B36A6C532B79 /* TestLixiaokai.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		07BDBE293291FB141A7F4761239BF816 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0D06589598BFF411CF449EA08EB87A3C /* TestLixiaokai.modulemap */,
-				D73E5C33D9C81900307F7E575C83D8DB /* TestLixiaokai-dummy.m */,
-				E3717F014A5B0E97B037FBCB403F531D /* TestLixiaokai-Info.plist */,
-				EFD8EA36C104DB7AFBDC63D8560767EB /* TestLixiaokai-prefix.pch */,
-				E80DB59ECDCECBD17E9C54A584820486 /* TestLixiaokai-umbrella.h */,
-				05D36EB287D0CA223916599D7069383B /* TestLixiaokai.debug.xcconfig */,
-				840207C514BD5A16E78F8EF8AC07C86B /* TestLixiaokai.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestLixiaokai";
-			sourceTree = "<group>";
-		};
-		209BE45561832097B6EB77C0DCE21B64 /* TestLixiaokai */ = {
-			isa = PBXGroup;
-			children = (
-				25E08EB01F7183C419CF3D360A88D089 /* ReplaceMe.m */,
-				06F17DBDAD50BBF9E458F919AF05DA5B /* Pod */,
-				07BDBE293291FB141A7F4761239BF816 /* Support Files */,
+				90622532062EE72035D17292049828A4 /* TestA.h */,
+				9AEE76312F155F0E96F7AB9B7A55DA40 /* TestA.m */,
+				8EA93CE3058ECD56945AE87BB96457C9 /* Pod */,
+				F14B5D749A10E38782E187CFB9DC769E /* Support Files */,
+				A159B5716A33D26F9A8B0D73BBBEE36A /* TestA */,
 			);
 			name = TestLixiaokai;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1557F9E2E566C30D1DC617198EFD6198 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01CD2A4673E5A3DB267A46B2A738A54C /* TestLixiaokai */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5EF07B651F465865BC32963DAEB2F57D /* Pods-TestLixiaokai_Example */ = {
@@ -172,6 +159,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		8EA93CE3058ECD56945AE87BB96457C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				899B6FE6BAC7C4140B83A4E0894A49CE /* LICENSE */,
+				96EA48BA7522E680C9D155C2A1CF14A7 /* README.md */,
+				0961EEA666230FA258FB55223E5C1DA5 /* TestLixiaokai.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		96AE745B79C8CC1CF6F844C53697E967 /* Pods-TestLixiaokai_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +185,13 @@
 			path = "Target Support Files/Pods-TestLixiaokai_Tests";
 			sourceTree = "<group>";
 		};
+		A159B5716A33D26F9A8B0D73BBBEE36A /* TestA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TestA;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F62E7E7729ED00C01D65F8A69DF5A32D /* Development Pods */,
+				1557F9E2E566C30D1DC617198EFD6198 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				712A893651C90B1F36837FBC88475BD0 /* Products */,
 				880A4C087BBBF833393761214D974231 /* Targets Support Files */,
@@ -215,22 +219,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F62E7E7729ED00C01D65F8A69DF5A32D /* Development Pods */ = {
+		F14B5D749A10E38782E187CFB9DC769E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				209BE45561832097B6EB77C0DCE21B64 /* TestLixiaokai */,
+				2520A36B88FFF473BF0BC6CD08E39CF2 /* TestLixiaokai.modulemap */,
+				33C7448B41E5F6A4EC9FCFE58F064EB9 /* TestLixiaokai-dummy.m */,
+				D545DD75F3189BB4EF7F3233C5C74750 /* TestLixiaokai-Info.plist */,
+				0A8E7A601AE243BE510B1CC0E3B7CB3D /* TestLixiaokai-prefix.pch */,
+				D4E8F25919123D93E73A50162492E445 /* TestLixiaokai-umbrella.h */,
+				B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */,
+				D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestLixiaokai";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		025F00E81584E4A3CC64367548ECCF04 /* Headers */ = {
+		29E2981442EC2319FE1BD1EBC963E0F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58CD24F9CD3EE297BD73EB162D7E4D1 /* TestLixiaokai-umbrella.h in Headers */,
+				6D06D41B3FB3463F7414011F69B9F5B1 /* TestA.h in Headers */,
+				ECFA0C91E4334FA62DF5DD679151612B /* TestLixiaokai-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +267,12 @@
 /* Begin PBXNativeTarget section */
 		55169B91370EA2F79073BE82D4A07A6E /* TestLixiaokai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D99A643B2EA7A9A8ECE513A8E46877 /* Build configuration list for PBXNativeTarget "TestLixiaokai" */;
+			buildConfigurationList = B57F81969236C27906BA7147074DEE5C /* Build configuration list for PBXNativeTarget "TestLixiaokai" */;
 			buildPhases = (
-				025F00E81584E4A3CC64367548ECCF04 /* Headers */,
-				94E0C941C54C42D02547A49E0B490D8B /* Sources */,
-				B77ADD612BD0234CA159F8198FFF4A62 /* Frameworks */,
-				A6C10EC3C97B03BA7164815B84C134EE /* Resources */,
+				29E2981442EC2319FE1BD1EBC963E0F8 /* Headers */,
+				D2295A407DCB97EDEFB7A80C892CB5D0 /* Sources */,
+				6EE22DD03A411797A9389C27571FDB5C /* Frameworks */,
+				EB25C57D24049DC8120CE226B5280B67 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,14 +358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6C10EC3C97B03BA7164815B84C134EE /* Resources */ = {
+		C10892F389AD1B51801B895BCD756BFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C10892F389AD1B51801B895BCD756BFD /* Resources */ = {
+		EB25C57D24049DC8120CE226B5280B67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +383,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E0C941C54C42D02547A49E0B490D8B /* Sources */ = {
+		D2295A407DCB97EDEFB7A80C892CB5D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7DCCCBEB3691D8CC0868A6046C74E77 /* ReplaceMe.m in Sources */,
-				7D2CB4B4D4406414DC5B7DE484B34CD7 /* TestLixiaokai-dummy.m in Sources */,
+				F467B029BDC7C3DA85C6C29E06959CAD /* TestA.m in Sources */,
+				D750D9937BA7940C3160CBB9BBE6483D /* TestLixiaokai-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,9 +482,9 @@
 			};
 			name = Debug;
 		};
-		51C59565DD3C4A54BD88CE40D216C494 /* Debug */ = {
+		44CC8092E689C5559BCECAC656B27D3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05D36EB287D0CA223916599D7069383B /* TestLixiaokai.debug.xcconfig */;
+			baseConfigurationReference = D5330022A8B36F8FB4C09E3112A348DC /* TestLixiaokai.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -497,10 +509,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6A4BC9443086C7256579A4CB9A08D04C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -666,9 +679,9 @@
 			};
 			name = Release;
 		};
-		D1025F0D9131C711F69A3CEB79C3662D /* Release */ = {
+		D5404CEF8618BC77BB520A6568E4280E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 840207C514BD5A16E78F8EF8AC07C86B /* TestLixiaokai.release.xcconfig */;
+			baseConfigurationReference = B44C096ADD4494CCBECBD6ACFCFD85A4 /* TestLixiaokai.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -693,11 +706,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FF9A5BD01455903A7818098E6FD4A3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -754,11 +766,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D99A643B2EA7A9A8ECE513A8E46877 /* Build configuration list for PBXNativeTarget "TestLixiaokai" */ = {
+		B57F81969236C27906BA7147074DEE5C /* Build configuration list for PBXNativeTarget "TestLixiaokai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51C59565DD3C4A54BD88CE40D216C494 /* Debug */,
-				D1025F0D9131C711F69A3CEB79C3662D /* Release */,
+				D5404CEF8618BC77BB520A6568E4280E /* Debug */,
+				44CC8092E689C5559BCECAC656B27D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "TestA.h"
+#import "TestA.h"
 
 FOUNDATION_EXPORT double TestLixiaokaiVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestLixiaokaiVersionString[];
